@@ -1,0 +1,6 @@
+framework module Pods_kratos_framework_Tests {
+  umbrella header "Pods-kratos_framework_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

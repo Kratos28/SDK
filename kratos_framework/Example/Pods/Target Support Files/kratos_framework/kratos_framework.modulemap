@@ -1,0 +1,6 @@
+framework module kratos_framework {
+  umbrella header "kratos_framework-umbrella.h"
+
+  export *
+  module * { export * }
+}
