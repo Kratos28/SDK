@@ -1,0 +1,2015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015356B25F75DB511802D2435CF934BA /* fiw12_agreeView113.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA46D511B477B9571AFFAD825F3FD4D /* fiw12_agreeView113.m */; };
+		02FD9D154584C0981A3CE20994D8E9D0 /* Kratos_QuickLoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3141FE0BD2E28906E80FA21BCCBA5AE3 /* Kratos_QuickLoginVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0477126CEF6F0C3FDAA1BA2C4AE3B28B /* Kratos_HttpPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 157F0F11EF4BC1F31F153E6895C8C524 /* Kratos_HttpPresenter.m */; };
+		0648973667FB537BDC3ABFA9F3AD2ED8 /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B1DC66020D3884CDCAEC484311E92F /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06FF2586AE76FBBCBF8171F98255D8CB /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7471C4E002469B078E1CCD30EC83F1BA /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		087449D4800AFC5039D66B40964978DE /* kwewf_input.h in Headers */ = {isa = PBXBuildFile; fileRef = 557AEF80860B40E72FB37D017D2FD80F /* kwewf_input.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BFEAA3A8A7D3532046B0883BF5901B0 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F8A25EFB260CBECCD5C1E1974CDBA28A /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CB7678CF61C205E45AFD835E18A8DA1 /* kwewf_phoneinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 908BE2F8CE75472692925F4F5F2DAECE /* kwewf_phoneinput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DB2E34289D18AA9810609ADCCBFA181 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F847E96FFF3A72AFECEF213248AA8B47 /* IQBarButtonItem.m */; };
+		0DBE7287A8BBD48D290B9C725D277FF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E606BDB74F613E8CB3C1467BCD38E40 /* Foundation.framework */; };
+		0DE3D57631ABFC76164A70469741EFAC /* cellphone_34.313253012048px_1166712_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = E76EF6FC10361C1A3D70922E0EAD6E9A /* cellphone_34.313253012048px_1166712_easyicon.net.png */; };
+		0E777ED75217CD0A9AE271AFF6DC2A5F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6C371A9FF29CB4BF3A8193906B6690 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FF6574CE676DC9A21B7CAB835646124 /* KratosDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F061BB01C5C900E5E32D3CADB2F7CB /* KratosDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1369877AE876D3A8F5837437EFB39557 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCB730201C7E3CF13EE7F27744C9C31 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13D87E1D99CFD98771E8066E6FF832CD /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBEC61A3F39D7A6B784CB25F3A44819 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14479278EA90F38247811468ADD8EBB7 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC114B75A90AAE421B7F312E454720C4 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16ACDCDF678561A8BB12A69099552B84 /* kwewf_pwdinput.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CFF241386F5690043C827DA56E170A /* kwewf_pwdinput.m */; };
+		17450F9ABD1D8FA233E5C7DFBFBD3781 /* Kratos_longzhuInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = F226FCA7F4106D1AB17D5C862E30244E /* Kratos_longzhuInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18EC97DE4F008D0592A09B394FA24AAF /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F37C81E6C3ADC4813DFE9514CE3B53 /* CSViewController.m */; };
+		18FB24F90A1888EF8F53614C0B16C5D3 /* Kratos_RegisiterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 396BE839F300C448BA6D1C13B5D19999 /* Kratos_RegisiterView.m */; };
+		192F7AC689529A077BD02921C50CEDDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E606BDB74F613E8CB3C1467BCD38E40 /* Foundation.framework */; };
+		19FEA67C29DA4B95DD0BBF2EF43E9626 /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0BAD1A2A293450B957AC46B1493F0 /* CSAppDelegate.m */; };
+		1AB0836179BD004F7D2952E9643993CE /* kwewf_phoneinput.m in Sources */ = {isa = PBXBuildFile; fileRef = 426DBC0B0E0FE3879F65D6EC8641B4D0 /* kwewf_phoneinput.m */; };
+		1D042E07BA5611EC9DE86A2C879122EB /* Kratos_RegisiterView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CF325DABEC54C34FE1CBAF28B0A0BC /* Kratos_RegisiterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE9C6B8DD1C01F1E04DDA0D4B86AC52 /* Kratos_baseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E8F17B754A6DD95EC0FE3E3C2011C9 /* Kratos_baseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EFE9907AC8D62373AAFB1237C507E8E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF24820B7D7DDAE738731DE66BC2562E /* AFSecurityPolicy.m */; };
+		1FC5EFA325399E19B0BBA16204082D7B /* aa_bbPlatform_aa_bb.m in Sources */ = {isa = PBXBuildFile; fileRef = 3916C97F0B5B4A61091E45FD6F19C9BD /* aa_bbPlatform_aa_bb.m */; };
+		206AFF06C55476E95EAA68E40CE73C8B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 063DE2B970023B04F7F21C87F4871EFD /* MBProgressHUD.m */; };
+		21365AC7401731B59AD84A35DD4BBD21 /* Pods-kratos_framework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BA26A2E6E7173763FA39180BB243A6 /* Pods-kratos_framework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		252B36C42CCA84CB789A9CFCF462FB48 /* JKCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9983AAE86E84A2C3B12BB86BA49F26 /* JKCountDownButton.m */; };
+		27A3818C28B5F3BBDB4B96687427CCDA /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53C8B877D6A9BB15CA4129056E15877D /* DropDownCell.xib */; };
+		28356C23749927FFA41F5351A486704B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D1FF1D7314E627902ED61A21B20AB0A5 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		291266C72D6DC30F82F6307EC4CCEF11 /* ffffff_baseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B843B8221952FE13ECA917AE6B3A530E /* ffffff_baseViewController.m */; };
+		2B8552DA143D460B3EC0AE3ECB813482 /* Kratos_ForgotVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E94517B92A6C6E93C9E8495A57EB6DF3 /* Kratos_ForgotVC.m */; };
+		2D407C6492BC569F5361B9210C89A19C /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0BCD48345BFBB74ECD143131024803 /* IQKeyboardManager.m */; };
+		3394D8C3019F45B2B27EA714B03171F4 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85032A8887279103C1EA1877133333FE /* DPDConstants.swift */; };
+		33B0541B86FFB2D4122DA25DD2FADDD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F85D4532B4FB2AD3C7FC3361FA32366 /* QuartzCore.framework */; };
+		3619E77A8EC11571EE9F32921DAC0C89 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 267885482737AADB7363CC17381D9FBB /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CDE4ADE7789D9210A6324942878EBB /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27A4BC8E44DD0FC2354C532BFEFDF2F /* IQKeyboardManager.framework */; };
+		37063C18CE7507261B88C9F47D7B11B2 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0777AE916E4317B387F842D28F24AF /* DropDownCell.swift */; };
+		37861E335EB0553648A4AE5DD6B91313 /* fwfweew_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = DC64EF247A77DD8FBC9AF20761676505 /* fwfweew_Tool.m */; };
+		38197D36440B39D328C1F74C13AC718D /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFEB7394449D5948F0740D78CBD4E11 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3929398CFD71F742891C466CECD08AD8 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022C0821F322030DB4567729D60E207 /* DropDown.swift */; };
+		3CF1125F097852DB9C4B3DE43CF9D4D2 /* ffffff_baseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 593EF3E8863CF81A6A4B12FA9847401D /* ffffff_baseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE3DB627AFDDCEB2AEF434F7B7BF058 /* Kratos_QuickInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4DB4954D8AEA708E724F949FC9A8A3 /* Kratos_QuickInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F663DCDC6F63C2B4F40D4ABEBAD752E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F42CA30D3C2C3B6B77985B0A450BD31 /* MASConstraint.m */; };
+		42A6BC1EE1A271279C1EE7D549997D70 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 485470C39BCF72EF451997CF8BFFE6F0 /* MASViewAttribute.m */; };
+		431C76067CB09B1FC0E4DD5AEA6B540A /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 715971C814A827E2E6C1E7C08E63B441 /* IQUIScrollView+Additions.m */; };
+		45D3205C91CE02C840F45886F88019D7 /* Kratos_HttpPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = FB8C2C130705F4C8C3560322D6876AB9 /* Kratos_HttpPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F609A09F0F1B64931C81A2B2442348 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B7EFC134C311376E4FB5929D9E535D3 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B2818C7EED982BE7733CB5E83CDBD9 /* single.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7CB5ACF539165444C98C10E3484E8D /* single.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49EF13D0D3CE597602603BB6CECF7FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E606BDB74F613E8CB3C1467BCD38E40 /* Foundation.framework */; };
+		4C49BD790445247092BF3B38BFCA20BB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DFF56194FEDDCD591E4DB5257523B4 /* MASCompositeConstraint.m */; };
+		4DE0BE3E4F73A6D8A32F85AC0E10C92C /* kratos_framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FE9264BE0749C51AFAD57683CF8628 /* kratos_framework-dummy.m */; };
+		4FD0B5D0294A69012B75BDE920A7FB02 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFF1EEB5C33B3848AB5AAC917F91B9D /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5199B182875DA82C6A32EA2E04C8204B /* JKCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EA49EFEE127218C9E3921E4EA8790A42 /* JKCountDownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5496900090FF2366AD298AB131388FA0 /* Kratos_RegiterInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 798C1AA7CCAE45BF30D8927A02CB4834 /* Kratos_RegiterInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DF547057DAE2E19800B103B0B08FF6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5756ADF2B665C27DAD40238C1F1164 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5BD336D4E8710CFAA820E6CBB511BB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E606BDB74F613E8CB3C1467BCD38E40 /* Foundation.framework */; };
+		5CB6036AF4BEBCE357028C06B7A97B96 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF6FF1EAAE62670EBD7525770F02E56 /* AFHTTPSessionManager.m */; };
+		5CD49DB64CD87393304E6FA5ED70B6EE /* CALayer+UIcolorToCGcolor.h in Headers */ = {isa = PBXBuildFile; fileRef = C26C635F74ECE7483788367AD972366C /* CALayer+UIcolorToCGcolor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB23E9C11DEC13E2C1DB190C3819649 /* aa_bb_account_bb_aa.h in Headers */ = {isa = PBXBuildFile; fileRef = B3241F56F8B6FDB8B8CEB8E25F6C9E7A /* aa_bb_account_bb_aa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		623472154ED0E40BEAC86492A89031C2 /* CALayer+UIcolorToCGcolor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4380516EC422BCC364067B15CBDC215 /* CALayer+UIcolorToCGcolor.m */; };
+		62795489A3429BC056CADA98D41108C7 /* Kratos_longzhuInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED18B6696755AF4E66F0071D93E930C /* Kratos_longzhuInputView.m */; };
+		639A86F8EDAF569092C61103FFAEA21D /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 668054EA91141CEB484C694E54F305B7 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63F5BA839B931DB6605554B6D4369A0C /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 021B08F220A1EA3E141D5037418FCE9C /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65CE6AC05CDDD418249CE1D72E77B797 /* Kratos_LongZhuLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D217FB71EBE090472D2467862EF51B7 /* Kratos_LongZhuLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665B3B037B98D3E3ADB449A43FF14F42 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 076A004A478689E03C7CFA95207DF01A /* IQUITextFieldView+Additions.m */; };
+		688E0882DFC8CABA02390F43178CB33F /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = F7AA65F7810384AB42EBB3E59B7F53A1 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69063D8B9E976D52C5BE52B5053111E9 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1412AC8A1EE354FE65A56033A4641B43 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A98C77982DB04F59B6A8155733B2ACD /* UIImage+kkkk_LoadBundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3007F587AC1900A3E79CC0F525540AFB /* UIImage+kkkk_LoadBundleImage.m */; };
+		6EECC6C01D01881C527984B0B5C025F4 /* Kratos_RegiterInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 630CEB38EB4E2D0A1C18812A5D93B02F /* Kratos_RegiterInputView.m */; };
+		6F8DE883E276F1AC8800302058C8C775 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EF19CBE19A070053B879237CA9C6AD /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EE4A5DC3076CD8C13717D4DAA37DFD /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11785F389CE7FD44006B4746FA2AE588 /* IQTextView.m */; };
+		73067B802A18698E42355B2733AE80E5 /* phone_22px_1101044_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = 4371CFAE30A92F548BEB9303F76C5AA7 /* phone_22px_1101044_easyicon.net.png */; };
+		74DD9F91712532ED625BBC911D7396F5 /* kratos_framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 231F0B46B01E4E5262E7EED1B86C98F7 /* kratos_framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		770350ADECDE0AE50893232002A10E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E606BDB74F613E8CB3C1467BCD38E40 /* Foundation.framework */; };
+		77EEB1786D8270A4EEFDBE3127E03CF3 /* Kratos_QuickView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C9CE9E85E4CBA61F6F82EDE893165A /* Kratos_QuickView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788BA72F67004504FFDFC670048786B5 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 109A7D2DD8AC5A710D2589B263E4256C /* IQKeyboardManager.bundle */; };
+		78A3756A852CAA6F344D85308EF8902A /* KratosDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D059B44595189526C10C7A2512E6E2A0 /* KratosDropDown-dummy.m */; };
+		7A1C359AC20FBBDAC9709C0BA98DB386 /* Kratos_Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A9AD195727D000806A49A39C22FBF9 /* Kratos_Presenter.m */; };
+		7C49A18841060D12A58F92CE62C21F9D /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 466C657E9800F6C372DFA6373D0E6860 /* IQNSArray+Sort.m */; };
+		7CF3668C8E30DA3CAB92C9C6A8B88B8F /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 636676280F4A6684FCA8AD5319C8A10B /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		800C5C255113DAEC62697052CD650F44 /* Pods-kratos_framework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD83343E9C914CC768D8F7380B7A1E /* Pods-kratos_framework_Tests-dummy.m */; };
+		81DCDD14D0BA9EDCEE2DBCB8319BCD17 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB36155EF5228892D0463DF734E7E13 /* MASViewConstraint.m */; };
+		8243F94BC64B1F0A5BC5553F70324611 /* CSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C56FEFEBFCC0F43AC1A57B04B81E0813 /* CSViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85127678032A1899B39DB8AE9E339F9B /* TYProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFFDE8B7FCE6511D6549D2CBF45A6C1 /* TYProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F02B2E2F922F439A12C7CBB077E8DE /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCC32E5993BB9393DA4EE600511F5FF /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A7AE132D23A064C6D87EC9A5BA746C /* kratos_framework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 188768645A8D8725521FEA94D02893F6 /* kratos_framework.bundle */; };
+		88D5BD859733F140BD6AF53C0ADCFCF2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16501606813A74E792C37A6552BB36D7 /* NSArray+MASAdditions.m */; };
+		8B274E62F4BBFB177086196F02C1F2F8 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A4CF40696A4AF7FC7770CE9DFC4A3 /* DPDUIView+Extension.swift */; };
+		8C0C4D12C5C8B6CA8C96826F70A5E8D7 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FFFFD49228522D0ABC5B706969D7C3 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E611F825C626362B4B996E1611CE28A /* fffffff_MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 22514093FB9B0F04EBF5673985C8CCD7 /* fffffff_MainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F91869FCA051F99074A8D9C67B32282 /* kwewf_pwdinput.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D21DB187FF1229260A2AA2AA93E611 /* kwewf_pwdinput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		926822ABC5A0F74902AE78980E0D4EE4 /* kwewf_inputCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2564DA587BB5749342DAF18C21E241F9 /* kwewf_inputCode.m */; };
+		92790016CCF8551D342BC6C0446A84D8 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D6909734EC55CB13A00891482695DC /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958FEEE31215AB970371D4CBAEB8A4DC /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C4E0615205FBB5E315BE6165FC281 /* IQTitleBarButtonItem.m */; };
+		96E8583D1E1CC168B8CEFDF707D37CBE /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F173F00F9917522CE0689F4B97148 /* ViewController+MASAdditions.m */; };
+		96FF274A797D289C7CC9573318347AD4 /* Kratos_longzhuloginView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6106C9D92D72A96819448F35BEC8B64 /* Kratos_longzhuloginView.m */; };
+		974547A0562A7587043A24804AA63E8E /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B1DFF3264D6AF3BD1513D79DA92139 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97C75C34C31588544818B3C5C6A11D41 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 970A7135109DB56E4DE64ABFEDCE4AF4 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97FF1CCC2B1F477146C2ACA5DE15A7A5 /* TYProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C08BD02534FB23BEBC01A2D7F9AB1 /* TYProgressHUD.m */; };
+		98BA8AD45BAAD95E7EB38E31F02291D3 /* Kratos_LoadDataProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4BF5A538FB57E7D0093EDB8B808FD8 /* Kratos_LoadDataProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99249B44D65716B5CCA0BFFD5F83062C /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFA692B4530BE96DFE716D10F0EB4DA /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B4EDA86F1CEB25CFE76E7F8EBE8C760 /* Kratos_longzhuloginView.h in Headers */ = {isa = PBXBuildFile; fileRef = D06E894A9BFBD4134E88979299E82CFA /* Kratos_longzhuloginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BF76A2667CA0BE26CB933E417696269 /* k_const.h in Headers */ = {isa = PBXBuildFile; fileRef = 6816DC9D2A787766746BA762903F78F7 /* k_const.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD5EB3F72133D5921EAB2442EF32B96 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5D5C5AF6E2ABD77B41CC7EF6E1CD0F /* AFNetworkReachabilityManager.m */; };
+		A3112F9827A9E704A87CED7CA8E5936F /* wefwe_InputView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4035F6756F98204B718ACE00F07271 /* wefwe_InputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CE2D718CEB5AC059823178404AF0EF /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFFCB08C47F84E65555E837865B7460 /* IQKeyboardManager-dummy.m */; };
+		A6288468136D70BB438BDD8C8E431E2F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E24C7CA2075847A71A6ACA434D2A8A7F /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7538C981A01539DEB545D2117A03237 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 616C802A30A851BC5DC82CD26F6317ED /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A91362D056BAD24F3D8A50B6C01B4DD7 /* Pods-kratos_framework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2907EC694BAC1F5A3CEEA0F2964DB0F /* Pods-kratos_framework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC6DB8270C474C50F5D71DE9BC73382 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C14A17233F2A8C437F756ACBE60425A /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAEDF7BB57091BCE21B56169C7AD6FBA /* Kratos_QuickInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B5A4383E2420FF0A9C814E82C14C7A /* Kratos_QuickInputView.m */; };
+		AB687A85D857FAC40065EE32451113EC /* CSAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A12E48BE4BC4604B2423BA77DC59771B /* CSAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBA16CEFBBCCC4CD75EBADCB40D2A9C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 344DE8AA7F52DC0AFF6BEEFA8DC57438 /* AFURLRequestSerialization.m */; };
+		AE0A70D24483CFE72BC6B0D0B59FBC72 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC54A657255C11740C39CFB34934872 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1CD1275375820C18DCA1214793D578 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB6A5F899627A7AAD6B4379C1E77782 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05BDA89A18DA866355AD804B694F851 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C75193100C789F3702B6301ACE7053E /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B21C3C93DAA23B1C331B9326991CDCFC /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AEAD927C8E04E20F9D7B0981878A886C /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5C77DBFCE53D879007EC94F77912633 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E12A23FDA4EF81132B08B76A6AEC0D4B /* AFURLSessionManager.m */; };
+		B75924A9164D87A3C51A58F00BBCC72A /* UIView+kkk_viewExtionsion.h in Headers */ = {isa = PBXBuildFile; fileRef = 56128F85DEDE19CDAD4F90164CB3DAC9 /* UIView+kkk_viewExtionsion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78E630A66DBA1A24BB892BD7A4941CF /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A80834E2AB478F257A692821BA80F /* DropDown+Appearance.swift */; };
+		B841E9E1A651E351F21C790FFA390CD1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5DCB8931E065EE4E36FE5D09E17D7E /* MASLayoutConstraint.m */; };
+		BF55C29557E52DAA06C1EC9638E70F27 /* Kratos_RegisterVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D49D440A00F4300C90276EB2BA11C9 /* Kratos_RegisterVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C053322D6DEC947061D754991AF841C1 /* kwewf_input.m in Sources */ = {isa = PBXBuildFile; fileRef = 003FA655843BC144431719902EE39CE0 /* kwewf_input.m */; };
+		C2A388B0E8C676C1CFD4D1B3451A737E /* UIView+kkk_viewExtionsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6CE680BA178FF77061D67B30841510 /* UIView+kkk_viewExtionsion.m */; };
+		C2B7F4EB405C401EA53023341C05E15E /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD80B39A368EB891A7F4D182D2D5204 /* IQPreviousNextView.m */; };
+		C480AC5D32406D4901116FCAC5FB0EB5 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A24D5402C2AF7F56AC94E1747E4E309F /* IQUIViewController+Additions.m */; };
+		C49ED0BA3BE26C50F202C5ED5FB85573 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD5CE5C26E99D7128E50AD26D16E5D4 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4AA57B938513DE614A7B90AEF5CD858 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C1980DB70F4CC3C6DD3B9A5637FB5E66 /* IQUIView+IQKeyboardToolbar.m */; };
+		C5387F56E7B5924777146E8B3051201A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D78CC1E8D3485CCE2DD1D9C846E79DE /* CoreGraphics.framework */; };
+		C651F16A25BB4BFEC2AA327AEE9EECF3 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 653F9F7786ABD72EEA5C522B33279B96 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DEE3F45AB5DC35D311F04DE94C932C /* fiw12_agreeView113.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECDBF5CCF10C319D0DCB18E533EC4B8 /* fiw12_agreeView113.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D76B218B9925CB9067D8C06B5225C2 /* fwfweew_Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 767C54B973F56A3403DBD8626AF98D80 /* fwfweew_Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8F307E0B15E904C18242510FD7CF204 /* Kratos_baseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9BA3F3B0919CD5DFCDA49168B8A234 /* Kratos_baseView.m */; };
+		CA1E205A4D3A8515ED42F76C2671F1BA /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D78A2D8963D9904F0B08C96529136C /* IQToolbar.m */; };
+		CD170836E0F5326AC11097762EE58EF1 /* Kratos_QuickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E790D2E777CDDF59015FCBA943BC8F /* Kratos_QuickView.m */; };
+		CF47209EB44C0B7A3C208C401BBD3B4C /* Kratos_RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D48BEBC5FCDC232956C327EB1813FF /* Kratos_RegisterVC.m */; };
+		CF4EB3350726A86BCCDF5F363C5FCE72 /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE08F8943BA3CFA5FE225D0A5B3C71CC /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3895FCEAC77F0EDB62075D8E78BB438 /* Kratos_QuickLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1312D0D595C61EBDCC370351B69005 /* Kratos_QuickLoginVC.m */; };
+		D3FDA45174E48B5E3538EA4B19657A24 /* wefwe_InputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8576C651CF36EAEC7F80BA4E8630C /* wefwe_InputView.m */; };
+		D613E791C1CC77B2AD917D7F5384044B /* aa_bbPlatform_aa_bb.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9B7DEA2D4CB2BBB8D135A2B10BB648 /* aa_bbPlatform_aa_bb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D63A1C7482A8191B9574E24DD2779961 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B71DFE4924FED9D6C245614B60AF9265 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71282197C19FAAE42908B2307D0084E /* Kratos_MainViewControllerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD546E5B95955624F84352D9A430A52 /* Kratos_MainViewControllerPresenter.m */; };
+		D7E5A3E78897E4D0E7C8086636CE99B3 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B86ED59DB0AA0F2B48FC912B33E86B36 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D996B3BD4EE4415476AC94DB0C66CCAA /* Kratos_MainViewControllerPresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = B6260A5871C5AA2C32F3D091273157FE /* Kratos_MainViewControllerPresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1CF78E3618AA9410FA41FBD9CD7D4C /* aa_bb_account_bb_aa.m in Sources */ = {isa = PBXBuildFile; fileRef = B76BA5DDDDC942A6EF767403A936652D /* aa_bb_account_bb_aa.m */; };
+		DA32BF788AD9D209A4CF843AAC2BF69F /* Kratos_Presenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3723507DF3C621F976E978CB93C06D78 /* Kratos_Presenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE1B84E9906EF1E070A2E46B1BF784B /* UIImage+kkkk_LoadBundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E61F2CBA01FAE6171191D0ED523A1B2F /* UIImage+kkkk_LoadBundleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCE95F50DCCB733693AA11CF9E4EE4F2 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8701CE0BA59410FD7DAC81CBD9C1D1D3 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE18038BDF8BE7B8D651D3D3B68CA630 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4697858C329EA7C0ECB0F5A1B374B1 /* UIView+Toast.m */; };
+		DEB92E2DB086E554AEA1DBFA8A9F00D0 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 303B0CC123BD5AF4B2358040F28D85A5 /* IQUIView+Hierarchy.m */; };
+		DFBA38199D95146724F7E238FDA2BF20 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C52C8C809226D91B420B812CCAC4B4D /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0524E3450C6F6F41AFD128C5D4059BC /* fffffff_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333AA0C29CD4A48B64208D95B1360DF2 /* fffffff_MainViewController.m */; };
+		E15A9D851C64139541CE9582098205DA /* Pods-kratos_framework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF902B7C6C459360FAFB9A401432FB0 /* Pods-kratos_framework_Example-dummy.m */; };
+		E512CFF2439F59FCC2CB9F696EDBE649 /* Kratos_LongZhuLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C2DA26F4A10CC1E5353547A838964 /* Kratos_LongZhuLogin.m */; };
+		E6D98613B264C8ACF24F05415D8F4BB7 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 73243AB2063D8289C4792588125B7E30 /* MASConstraintMaker.m */; };
+		E802560B425A04296159872675948D29 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9480F9B7B34102D6841F91C8EC3C82EA /* IQKeyboardReturnKeyHandler.m */; };
+		E8A2057C172F60CED461E5E21AFAE11C /* kwewf_inputCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DF69421EA3F68ED86F0CED4C5F120C /* kwewf_inputCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA14810DF4DB81EF85B224C83EF12229 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1646635E0A2744D8E67A4656715FC190 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA6E0F5A24DEB64EAE9D9B0EE4B17B74 /* Kratos_ForgotVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0CAEEC5D064A773EAC4FA2860F6DF4 /* Kratos_ForgotVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC217510BFBE8EEAAF48B44847D77CF9 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C96E4CC1FDE06D269B7A397C0A80242 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE44351F11ED90F904FFCB257094967F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A321C953C9C9DABF1B4DD4127A828A /* UIKit.framework */; };
+		EE5E90FA69AF8F5E6CCCF8C65F69E6FB /* KratosDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D5CE43414363255FA407447D0852F4 /* KratosDropDown.framework */; };
+		F288FF37E374B5917D469E250FCD21D2 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EE60856812DCEFC3DAFF2E1ED57A0 /* DPDKeyboardListener.swift */; };
+		FA4C324870D17B23D7E19512907467B2 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B782EC36CA6024480B57801829802F4A /* View+MASAdditions.m */; };
+		FB00ABC3387AF08323DA1F7FCD54B343 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 597362C264ED399BC4DDAFFCD6FEAEEC /* AFURLResponseSerialization.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0590E47925C438B9596E27422E30AE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6B439F7EBAD4322F277398E356371E;
+			remoteInfo = "Pods-kratos_framework_Example";
+		};
+		2FEFC668B1A1B6229B9FD0C5283DA9C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8910486381130C7DB157D52C62DFB098;
+			remoteInfo = kratos_framework;
+		};
+		4638A6745FAF970DF274937A1558FC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55833EC3DE9EBD9B329CAEB983D5A9D;
+			remoteInfo = IQKeyboardManager;
+		};
+		62612C88F132613A7599FB3E9DA1FC99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A072D3897579F2F36B7620477B64CBF2;
+			remoteInfo = KratosDropDown;
+		};
+		663B50F8804AAAEEFC5B046314209036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681671825E21350C67EA4DC0A047D605;
+			remoteInfo = "kratos_framework-kratos_framework";
+		};
+		A626DF3B594126ABACC8FF0A922524F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A072D3897579F2F36B7620477B64CBF2;
+			remoteInfo = KratosDropDown;
+		};
+		EAAAD7AFC21659BC7A438D9A3B148C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55833EC3DE9EBD9B329CAEB983D5A9D;
+			remoteInfo = IQKeyboardManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0022C0821F322030DB4567729D60E207 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		003FA655843BC144431719902EE39CE0 /* kwewf_input.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = kwewf_input.m; sourceTree = "<group>"; };
+		021B08F220A1EA3E141D5037418FCE9C /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		048A4CF40696A4AF7FC7770CE9DFC4A3 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		04FFFFD49228522D0ABC5B706969D7C3 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		062C0AB96B9A15E6A1D973E6812838FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		063DE2B970023B04F7F21C87F4871EFD /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		076A004A478689E03C7CFA95207DF01A /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		089DF429A9C251D5D130F31008055FC4 /* Pods_kratos_framework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_kratos_framework_Tests.framework; path = "Pods-kratos_framework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD296EBCCD7A936C98130574189CC65 /* ResourceBundle-kratos_framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-kratos_framework-Info.plist"; sourceTree = "<group>"; };
+		0BFFCB08C47F84E65555E837865B7460 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		0D185BFF412FD663DA93F8B19F5E0119 /* kratos_framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kratos_framework-prefix.pch"; sourceTree = "<group>"; };
+		0DCC32E5993BB9393DA4EE600511F5FF /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		0E7C4E0615205FBB5E315BE6165FC281 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		109A7D2DD8AC5A710D2589B263E4256C /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		116CFD4EBCF32DF79D4887388E54A8FC /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManager.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11785F389CE7FD44006B4746FA2AE588 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		1412AC8A1EE354FE65A56033A4641B43 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		157F0F11EF4BC1F31F153E6895C8C524 /* Kratos_HttpPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_HttpPresenter.m; sourceTree = "<group>"; };
+		1646635E0A2744D8E67A4656715FC190 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		16501606813A74E792C37A6552BB36D7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		188768645A8D8725521FEA94D02893F6 /* kratos_framework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = kratos_framework.bundle; path = "kratos_framework-kratos_framework.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3C2DA26F4A10CC1E5353547A838964 /* Kratos_LongZhuLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_LongZhuLogin.m; sourceTree = "<group>"; };
+		1B9983AAE86E84A2C3B12BB86BA49F26 /* JKCountDownButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKCountDownButton.m; sourceTree = "<group>"; };
+		1D5DCB8931E065EE4E36FE5D09E17D7E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		1D78CC1E8D3485CCE2DD1D9C846E79DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1E51BF362355E283CB01AA4601B36A4A /* kratos_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = kratos_framework.framework; path = kratos_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF6FF1EAAE62670EBD7525770F02E56 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		22514093FB9B0F04EBF5673985C8CCD7 /* fffffff_MainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fffffff_MainViewController.h; sourceTree = "<group>"; };
+		231F0B46B01E4E5262E7EED1B86C98F7 /* kratos_framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kratos_framework-umbrella.h"; sourceTree = "<group>"; };
+		2564DA587BB5749342DAF18C21E241F9 /* kwewf_inputCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = kwewf_inputCode.m; sourceTree = "<group>"; };
+		25A54A09C5B62D6BE7A3ABE265508331 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		267885482737AADB7363CC17381D9FBB /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		2891E446AF7934A6E415D641FB5528DA /* Pods-kratos_framework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kratos_framework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A44F765C8B27C280B93DD6A0EAFB0B1 /* Pods_kratos_framework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_kratos_framework_Example.framework; path = "Pods-kratos_framework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF902B7C6C459360FAFB9A401432FB0 /* Pods-kratos_framework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kratos_framework_Example-dummy.m"; sourceTree = "<group>"; };
+		2C9B7DEA2D4CB2BBB8D135A2B10BB648 /* aa_bbPlatform_aa_bb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aa_bbPlatform_aa_bb.h; path = kratos_framework/Classes/cls/aa_bbPlatform_aa_bb.h; sourceTree = "<group>"; };
+		2ECDBF5CCF10C319D0DCB18E533EC4B8 /* fiw12_agreeView113.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fiw12_agreeView113.h; sourceTree = "<group>"; };
+		2F85D4532B4FB2AD3C7FC3361FA32366 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3007F587AC1900A3E79CC0F525540AFB /* UIImage+kkkk_LoadBundleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+kkkk_LoadBundleImage.m"; sourceTree = "<group>"; };
+		303B0CC123BD5AF4B2358040F28D85A5 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		3141FE0BD2E28906E80FA21BCCBA5AE3 /* Kratos_QuickLoginVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_QuickLoginVC.h; sourceTree = "<group>"; };
+		32D78A2D8963D9904F0B08C96529136C /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		333AA0C29CD4A48B64208D95B1360DF2 /* fffffff_MainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = fffffff_MainViewController.m; sourceTree = "<group>"; };
+		344DE8AA7F52DC0AFF6BEEFA8DC57438 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		34DF69421EA3F68ED86F0CED4C5F120C /* kwewf_inputCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kwewf_inputCode.h; sourceTree = "<group>"; };
+		36E790D2E777CDDF59015FCBA943BC8F /* Kratos_QuickView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_QuickView.m; sourceTree = "<group>"; };
+		3723507DF3C621F976E978CB93C06D78 /* Kratos_Presenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_Presenter.h; sourceTree = "<group>"; };
+		3916C97F0B5B4A61091E45FD6F19C9BD /* aa_bbPlatform_aa_bb.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = aa_bbPlatform_aa_bb.m; path = kratos_framework/Classes/cls/aa_bbPlatform_aa_bb.m; sourceTree = "<group>"; };
+		396BE839F300C448BA6D1C13B5D19999 /* Kratos_RegisiterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_RegisiterView.m; sourceTree = "<group>"; };
+		3A5756ADF2B665C27DAD40238C1F1164 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		3C0777AE916E4317B387F842D28F24AF /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		3C9EE60856812DCEFC3DAFF2E1ED57A0 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		3E0CAEEC5D064A773EAC4FA2860F6DF4 /* Kratos_ForgotVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_ForgotVC.h; sourceTree = "<group>"; };
+		3ED18B6696755AF4E66F0071D93E930C /* Kratos_longzhuInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_longzhuInputView.m; sourceTree = "<group>"; };
+		426DBC0B0E0FE3879F65D6EC8641B4D0 /* kwewf_phoneinput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = kwewf_phoneinput.m; sourceTree = "<group>"; };
+		4371CFAE30A92F548BEB9303F76C5AA7 /* phone_22px_1101044_easyicon.net.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = phone_22px_1101044_easyicon.net.png; path = kratos_framework/Assets/phone_22px_1101044_easyicon.net.png; sourceTree = "<group>"; };
+		466C657E9800F6C372DFA6373D0E6860 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		485470C39BCF72EF451997CF8BFFE6F0 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		4BBEC61A3F39D7A6B784CB25F3A44819 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		4C70EC1F9CA4690A204E8693D5267C84 /* Pods-kratos_framework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kratos_framework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4D1312D0D595C61EBDCC370351B69005 /* Kratos_QuickLoginVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_QuickLoginVC.m; sourceTree = "<group>"; };
+		4DCD83343E9C914CC768D8F7380B7A1E /* Pods-kratos_framework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-kratos_framework_Tests-dummy.m"; sourceTree = "<group>"; };
+		4DFF1EEB5C33B3848AB5AAC917F91B9D /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		4E4DB4954D8AEA708E724F949FC9A8A3 /* Kratos_QuickInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_QuickInputView.h; sourceTree = "<group>"; };
+		4F42CA30D3C2C3B6B77985B0A450BD31 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		5025A87A97DEA7D0EDE02D30022E8071 /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
+		50C8332C581607343372B51FEBB29EDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B1DFF3264D6AF3BD1513D79DA92139 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		53C8B877D6A9BB15CA4129056E15877D /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		54FE9264BE0749C51AFAD57683CF8628 /* kratos_framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "kratos_framework-dummy.m"; sourceTree = "<group>"; };
+		557AEF80860B40E72FB37D017D2FD80F /* kwewf_input.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kwewf_input.h; sourceTree = "<group>"; };
+		56128F85DEDE19CDAD4F90164CB3DAC9 /* UIView+kkk_viewExtionsion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+kkk_viewExtionsion.h"; sourceTree = "<group>"; };
+		593EF3E8863CF81A6A4B12FA9847401D /* ffffff_baseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffffff_baseViewController.h; sourceTree = "<group>"; };
+		597362C264ED399BC4DDAFFCD6FEAEEC /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		59D48BEBC5FCDC232956C327EB1813FF /* Kratos_RegisterVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_RegisterVC.m; sourceTree = "<group>"; };
+		59F37C81E6C3ADC4813DFE9514CE3B53 /* CSViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
+		5BD0BAD1A2A293450B957AC46B1493F0 /* CSAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
+		5C14A17233F2A8C437F756ACBE60425A /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		5C52C8C809226D91B420B812CCAC4B4D /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		5CACC51B90F3CA1C65CA93832CC7FD66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616C802A30A851BC5DC82CD26F6317ED /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		630CEB38EB4E2D0A1C18812A5D93B02F /* Kratos_RegiterInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_RegiterInputView.m; sourceTree = "<group>"; };
+		636676280F4A6684FCA8AD5319C8A10B /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		64B1DC66020D3884CDCAEC484311E92F /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		64D21DB187FF1229260A2AA2AA93E611 /* kwewf_pwdinput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kwewf_pwdinput.h; sourceTree = "<group>"; };
+		653F9F7786ABD72EEA5C522B33279B96 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		668054EA91141CEB484C694E54F305B7 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		6816DC9D2A787766746BA762903F78F7 /* k_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = k_const.h; path = kratos_framework/Classes/cls/k_const.h; sourceTree = "<group>"; };
+		6A6A80834E2AB478F257A692821BA80F /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		6AD546E5B95955624F84352D9A430A52 /* Kratos_MainViewControllerPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_MainViewControllerPresenter.m; sourceTree = "<group>"; };
+		6B6CE680BA178FF77061D67B30841510 /* UIView+kkk_viewExtionsion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+kkk_viewExtionsion.m"; sourceTree = "<group>"; };
+		6C5D5C5AF6E2ABD77B41CC7EF6E1CD0F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		6D217FB71EBE090472D2467862EF51B7 /* Kratos_LongZhuLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_LongZhuLogin.h; sourceTree = "<group>"; };
+		6DD5CE5C26E99D7128E50AD26D16E5D4 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		715971C814A827E2E6C1E7C08E63B441 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		73243AB2063D8289C4792588125B7E30 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		7471C4E002469B078E1CCD30EC83F1BA /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		75C94837CB35C2B87D8C1A8E22EF24AB /* KratosDropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KratosDropDown.xcconfig; sourceTree = "<group>"; };
+		762BCA772C3A09F3D4D757954E38EEBD /* Pods-kratos_framework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kratos_framework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		767C54B973F56A3403DBD8626AF98D80 /* fwfweew_Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwfweew_Tool.h; path = kratos_framework/Classes/cls/fwfweew_Tool.h; sourceTree = "<group>"; };
+		7886999A1C7414215B5F008CBF6C86F0 /* Pods-kratos_framework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kratos_framework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		798C1AA7CCAE45BF30D8927A02CB4834 /* Kratos_RegiterInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_RegiterInputView.h; sourceTree = "<group>"; };
+		7B0BCD48345BFBB74ECD143131024803 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		7B4C08BD02534FB23BEBC01A2D7F9AB1 /* TYProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYProgressHUD.m; sourceTree = "<group>"; };
+		7C75193100C789F3702B6301ACE7053E /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		7E606BDB74F613E8CB3C1467BCD38E40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80D5CE43414363255FA407447D0852F4 /* KratosDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KratosDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BA26A2E6E7173763FA39180BB243A6 /* Pods-kratos_framework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kratos_framework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		85032A8887279103C1EA1877133333FE /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		8701CE0BA59410FD7DAC81CBD9C1D1D3 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		877E18892892E34CB79D4F39123DC230 /* Pods-kratos_framework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kratos_framework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		908BE2F8CE75472692925F4F5F2DAECE /* kwewf_phoneinput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kwewf_phoneinput.h; sourceTree = "<group>"; };
+		90B5A4383E2420FF0A9C814E82C14C7A /* Kratos_QuickInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_QuickInputView.m; sourceTree = "<group>"; };
+		92E8F17B754A6DD95EC0FE3E3C2011C9 /* Kratos_baseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_baseView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9480F9B7B34102D6841F91C8EC3C82EA /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		96833BF021E4C7CB2DF2900FFA774023 /* KratosDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KratosDropDown.framework; path = KratosDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C9CE9E85E4CBA61F6F82EDE893165A /* Kratos_QuickView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_QuickView.h; sourceTree = "<group>"; };
+		970A7135109DB56E4DE64ABFEDCE4AF4 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9A5F173F00F9917522CE0689F4B97148 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		9AFFDE8B7FCE6511D6549D2CBF45A6C1 /* TYProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYProgressHUD.h; sourceTree = "<group>"; };
+		9B49F232369F1CE2C4A36194500F3C97 /* Pods-kratos_framework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-kratos_framework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B7EFC134C311376E4FB5929D9E535D3 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		9C6C371A9FF29CB4BF3A8193906B6690 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		9C96E4CC1FDE06D269B7A397C0A80242 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		A12E48BE4BC4604B2423BA77DC59771B /* CSAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CSAppDelegate.h; sourceTree = "<group>"; };
+		A24D5402C2AF7F56AC94E1747E4E309F /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		A30A0D1C57471A3E1934C28FEC854B77 /* kratos_framework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = kratos_framework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADA089277394E7D9272DB5DB1129918A /* Pods-kratos_framework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kratos_framework_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AEAD927C8E04E20F9D7B0981878A886C /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		AF24820B7D7DDAE738731DE66BC2562E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B09CF5B2EB8977F7E2EC1D03A5E711C5 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		B3241F56F8B6FDB8B8CEB8E25F6C9E7A /* aa_bb_account_bb_aa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aa_bb_account_bb_aa.h; sourceTree = "<group>"; };
+		B6260A5871C5AA2C32F3D091273157FE /* Kratos_MainViewControllerPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_MainViewControllerPresenter.h; sourceTree = "<group>"; };
+		B71DFE4924FED9D6C245614B60AF9265 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		B76BA5DDDDC942A6EF767403A936652D /* aa_bb_account_bb_aa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = aa_bb_account_bb_aa.m; sourceTree = "<group>"; };
+		B782EC36CA6024480B57801829802F4A /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		B813C8333CA19DABECF3B00BDA4A0EA2 /* Pods-kratos_framework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kratos_framework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B843B8221952FE13ECA917AE6B3A530E /* ffffff_baseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ffffff_baseViewController.m; sourceTree = "<group>"; };
+		B86ED59DB0AA0F2B48FC912B33E86B36 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		BA561CB631F2103218F0C8A5D02A3478 /* KratosDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KratosDropDown.modulemap; sourceTree = "<group>"; };
+		BAC7C71DD76C0A31BE3AA9AE7E67FD14 /* Pods-kratos_framework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kratos_framework_Example-resources.sh"; sourceTree = "<group>"; };
+		BB81AE41190C12619238DA9192AF1AD5 /* kratos_framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = kratos_framework.xcconfig; sourceTree = "<group>"; };
+		BC24DF8EC3B0FA66625D1A11EB6226E1 /* Pods-kratos_framework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-kratos_framework_Tests-resources.sh"; sourceTree = "<group>"; };
+		BD0F5BB6A20F1A7F7EFFFB708E735CCA /* kratos_framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = kratos_framework.modulemap; sourceTree = "<group>"; };
+		BE08F8943BA3CFA5FE225D0A5B3C71CC /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		BFA46D511B477B9571AFFAD825F3FD4D /* fiw12_agreeView113.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = fiw12_agreeView113.m; sourceTree = "<group>"; };
+		C1980DB70F4CC3C6DD3B9A5637FB5E66 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		C1C60871DCB6D63D40104E0B853A7FB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26C635F74ECE7483788367AD972366C /* CALayer+UIcolorToCGcolor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+UIcolorToCGcolor.h"; sourceTree = "<group>"; };
+		C2907EC694BAC1F5A3CEEA0F2964DB0F /* Pods-kratos_framework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-kratos_framework_Example-umbrella.h"; sourceTree = "<group>"; };
+		C2CF325DABEC54C34FE1CBAF28B0A0BC /* Kratos_RegisiterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_RegisiterView.h; sourceTree = "<group>"; };
+		C4A01107A2EF45FD1DAD545B1BFF5DFB /* Pods-kratos_framework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-kratos_framework_Tests.modulemap"; sourceTree = "<group>"; };
+		C56FEFEBFCC0F43AC1A57B04B81E0813 /* CSViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
+		C5CFF241386F5690043C827DA56E170A /* kwewf_pwdinput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = kwewf_pwdinput.m; sourceTree = "<group>"; };
+		C7A9AD195727D000806A49A39C22FBF9 /* Kratos_Presenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_Presenter.m; sourceTree = "<group>"; };
+		C7F061BB01C5C900E5E32D3CADB2F7CB /* KratosDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KratosDropDown-umbrella.h"; sourceTree = "<group>"; };
+		CB9BA3F3B0919CD5DFCDA49168B8A234 /* Kratos_baseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_baseView.m; sourceTree = "<group>"; };
+		CD4697858C329EA7C0ECB0F5A1B374B1 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		D059B44595189526C10C7A2512E6E2A0 /* KratosDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KratosDropDown-dummy.m"; sourceTree = "<group>"; };
+		D06E894A9BFBD4134E88979299E82CFA /* Kratos_longzhuloginView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_longzhuloginView.h; sourceTree = "<group>"; };
+		D1FF1D7314E627902ED61A21B20AB0A5 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D27A4BC8E44DD0FC2354C532BFEFDF2F /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D6909734EC55CB13A00891482695DC /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		D3ED300C24F96A492A3A4DEFC235D229 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63D33B6D95FEF34B4ECAE5D10D33273 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7EF19CBE19A070053B879237CA9C6AD /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D9E4C2F3C94C102358BDBDBC159A3C51 /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		DBCB730201C7E3CF13EE7F27744C9C31 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DC4035F6756F98204B718ACE00F07271 /* wefwe_InputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wefwe_InputView.h; sourceTree = "<group>"; };
+		DC64EF247A77DD8FBC9AF20761676505 /* fwfweew_Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = fwfweew_Tool.m; path = kratos_framework/Classes/cls/fwfweew_Tool.m; sourceTree = "<group>"; };
+		E12A23FDA4EF81132B08B76A6AEC0D4B /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		E1C8576C651CF36EAEC7F80BA4E8630C /* wefwe_InputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = wefwe_InputView.m; sourceTree = "<group>"; };
+		E24C7CA2075847A71A6ACA434D2A8A7F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E36A7575908AD65E651CC0EC5CBD1797 /* Pods-kratos_framework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-kratos_framework_Example.modulemap"; sourceTree = "<group>"; };
+		E6106C9D92D72A96819448F35BEC8B64 /* Kratos_longzhuloginView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_longzhuloginView.m; sourceTree = "<group>"; };
+		E61F2CBA01FAE6171191D0ED523A1B2F /* UIImage+kkkk_LoadBundleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+kkkk_LoadBundleImage.h"; sourceTree = "<group>"; };
+		E76EF6FC10361C1A3D70922E0EAD6E9A /* cellphone_34.313253012048px_1166712_easyicon.net.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = cellphone_34.313253012048px_1166712_easyicon.net.png; path = kratos_framework/Assets/cellphone_34.313253012048px_1166712_easyicon.net.png; sourceTree = "<group>"; };
+		E786460C137CA8A590EC041DD40D4291 /* Pods-kratos_framework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-kratos_framework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E94517B92A6C6E93C9E8495A57EB6DF3 /* Kratos_ForgotVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Kratos_ForgotVC.m; sourceTree = "<group>"; };
+		E9F4ACE7AAC42073CFD1E43FD66F0629 /* Pods-kratos_framework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-kratos_framework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA49EFEE127218C9E3921E4EA8790A42 /* JKCountDownButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKCountDownButton.h; sourceTree = "<group>"; };
+		EC7CB5ACF539165444C98C10E3484E8D /* single.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = single.h; path = kratos_framework/Classes/cls/single.h; sourceTree = "<group>"; };
+		EDB6A5F899627A7AAD6B4379C1E77782 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		EFBD8824A6FBA7D386AF995AEA9BF1E0 /* KratosDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KratosDropDown-prefix.pch"; sourceTree = "<group>"; };
+		F0A321C953C9C9DABF1B4DD4127A828A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F1D49D440A00F4300C90276EB2BA11C9 /* Kratos_RegisterVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_RegisterVC.h; sourceTree = "<group>"; };
+		F226FCA7F4106D1AB17D5C862E30244E /* Kratos_longzhuInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_longzhuInputView.h; sourceTree = "<group>"; };
+		F4380516EC422BCC364067B15CBDC215 /* CALayer+UIcolorToCGcolor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+UIcolorToCGcolor.m"; sourceTree = "<group>"; };
+		F4DFF56194FEDDCD591E4DB5257523B4 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F7AA65F7810384AB42EBB3E59B7F53A1 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		F847E96FFF3A72AFECEF213248AA8B47 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		F8A25EFB260CBECCD5C1E1974CDBA28A /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FAB36155EF5228892D0463DF734E7E13 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FAFEB7394449D5948F0740D78CBD4E11 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FB8C2C130705F4C8C3560322D6876AB9 /* Kratos_HttpPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_HttpPresenter.h; sourceTree = "<group>"; };
+		FBD80B39A368EB891A7F4D182D2D5204 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
+		FC114B75A90AAE421B7F312E454720C4 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		FCC54A657255C11740C39CFB34934872 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FD4BF5A538FB57E7D0093EDB8B808FD8 /* Kratos_LoadDataProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Kratos_LoadDataProtocol.h; sourceTree = "<group>"; };
+		FEFA692B4530BE96DFE716D10F0EB4DA /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E991E1090A6C4D3745379D8E19790C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EF13D0D3CE597602603BB6CECF7FAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D4F47DE3AF4143BD73BDFA50F66E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770350ADECDE0AE50893232002A10E4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8944C0B131AF550CF6CC8073435E22F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5387F56E7B5924777146E8B3051201A /* CoreGraphics.framework in Frameworks */,
+				5BD336D4E8710CFAA820E6CBB511BB2A /* Foundation.framework in Frameworks */,
+				33B0541B86FFB2D4122DA25DD2FADDD3 /* QuartzCore.framework in Frameworks */,
+				EE44351F11ED90F904FFCB257094967F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C347CC2363577353B097F4B3449BD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFBE8ABCB6421594DC3E7F6747AC931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBE7287A8BBD48D290B9C725D277FF1 /* Foundation.framework in Frameworks */,
+				36CDE4ADE7789D9210A6324942878EBB /* IQKeyboardManager.framework in Frameworks */,
+				EE5E90FA69AF8F5E6CCCF8C65F69E6FB /* KratosDropDown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D873F3CFDBB5E4B0B00F8C598D40F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192F7AC689529A077BD02921C50CEDDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016CD7E6F1CEE6758118EC9DC91D49F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED05F9FC503FC9B41CB5D4B8075FB320 /* IQKeyboardManager */,
+				E3493765355B9B963EC47F6FF387376D /* KratosDropDown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		04826594EB32BC018DC6041DDE8CF348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D27A4BC8E44DD0FC2354C532BFEFDF2F /* IQKeyboardManager.framework */,
+				80D5CE43414363255FA407447D0852F4 /* KratosDropDown.framework */,
+				B44F9CDFAB6CA46B9EE6293A7F1C5DEF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15489E02C8309BA0C5AE9BB6984409D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53C8B877D6A9BB15CA4129056E15877D /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1D6F45300D3E9E7E81A929293B67E5D2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				86D44F904193984C8BCB7A0506DD5671 /* AFNetworking */,
+				56522E2E20FBF2A46B2A84DC51C8048A /* Masonry */,
+				F4FB8CF48122005FCAD4157B7699E226 /* MBProgressHUD */,
+				F8560188546081AF836BB022FFE97EAC /* Toast */,
+			);
+			name = Lib;
+			path = kratos_framework/Classes/cls/Lib;
+			sourceTree = "<group>";
+		};
+		2203E5A8B83E23AFBF391B18A069216C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CACC51B90F3CA1C65CA93832CC7FD66 /* Info.plist */,
+				5025A87A97DEA7D0EDE02D30022E8071 /* IQKeyboardManager.modulemap */,
+				D9E4C2F3C94C102358BDBDBC159A3C51 /* IQKeyboardManager.xcconfig */,
+				0BFFCB08C47F84E65555E837865B7460 /* IQKeyboardManager-dummy.m */,
+				B09CF5B2EB8977F7E2EC1D03A5E711C5 /* IQKeyboardManager-prefix.pch */,
+				0DCC32E5993BB9393DA4EE600511F5FF /* IQKeyboardManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		2307739EE9F3DCE9BC43C18EF9B88B54 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F226FCA7F4106D1AB17D5C862E30244E /* Kratos_longzhuInputView.h */,
+				3ED18B6696755AF4E66F0071D93E930C /* Kratos_longzhuInputView.m */,
+				D06E894A9BFBD4134E88979299E82CFA /* Kratos_longzhuloginView.h */,
+				E6106C9D92D72A96819448F35BEC8B64 /* Kratos_longzhuloginView.m */,
+				4E4DB4954D8AEA708E724F949FC9A8A3 /* Kratos_QuickInputView.h */,
+				90B5A4383E2420FF0A9C814E82C14C7A /* Kratos_QuickInputView.m */,
+				96C9CE9E85E4CBA61F6F82EDE893165A /* Kratos_QuickView.h */,
+				36E790D2E777CDDF59015FCBA943BC8F /* Kratos_QuickView.m */,
+			);
+			name = Account;
+			path = Account;
+			sourceTree = "<group>";
+		};
+		43EAF3C76EB4BB7D0BCDA1FAD60C51C0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				A12E48BE4BC4604B2423BA77DC59771B /* CSAppDelegate.h */,
+				5BD0BAD1A2A293450B957AC46B1493F0 /* CSAppDelegate.m */,
+				C56FEFEBFCC0F43AC1A57B04B81E0813 /* CSViewController.h */,
+				59F37C81E6C3ADC4813DFE9514CE3B53 /* CSViewController.m */,
+			);
+			name = Example;
+			path = Example;
+			sourceTree = "<group>";
+		};
+		49DEEC2A4F262464B68B68A13421311C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				581EF4C4658F51D1B3ABAD019A8A35DB /* Pods-kratos_framework_Example */,
+				EB7B756FB2E159B2F76F88E95F9A045C /* Pods-kratos_framework_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A2965F866FF090D38ED96A235D5A690 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				C2CF325DABEC54C34FE1CBAF28B0A0BC /* Kratos_RegisiterView.h */,
+				396BE839F300C448BA6D1C13B5D19999 /* Kratos_RegisiterView.m */,
+				798C1AA7CCAE45BF30D8927A02CB4834 /* Kratos_RegiterInputView.h */,
+				630CEB38EB4E2D0A1C18812A5D93B02F /* Kratos_RegiterInputView.m */,
+			);
+			name = Register;
+			path = Register;
+			sourceTree = "<group>";
+		};
+		4E5FA6A1DF47BB2710D9293056802721 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50C8332C581607343372B51FEBB29EDC /* Info.plist */,
+				BA561CB631F2103218F0C8A5D02A3478 /* KratosDropDown.modulemap */,
+				75C94837CB35C2B87D8C1A8E22EF24AB /* KratosDropDown.xcconfig */,
+				D059B44595189526C10C7A2512E6E2A0 /* KratosDropDown-dummy.m */,
+				EFBD8824A6FBA7D386AF995AEA9BF1E0 /* KratosDropDown-prefix.pch */,
+				C7F061BB01C5C900E5E32D3CADB2F7CB /* KratosDropDown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KratosDropDown";
+			sourceTree = "<group>";
+		};
+		51D6D904B5DA20D6BA54C42452D8B9D2 /* kratos_framework */ = {
+			isa = PBXGroup;
+			children = (
+				2C9B7DEA2D4CB2BBB8D135A2B10BB648 /* aa_bbPlatform_aa_bb.h */,
+				3916C97F0B5B4A61091E45FD6F19C9BD /* aa_bbPlatform_aa_bb.m */,
+				767C54B973F56A3403DBD8626AF98D80 /* fwfweew_Tool.h */,
+				DC64EF247A77DD8FBC9AF20761676505 /* fwfweew_Tool.m */,
+				6816DC9D2A787766746BA762903F78F7 /* k_const.h */,
+				EC7CB5ACF539165444C98C10E3484E8D /* single.h */,
+				FB6DD4697FEA4AB9BD9D5A392F4F9045 /* Cate */,
+				D274015F8D1612DC8BC6009F425A21F6 /* Controller */,
+				1D6F45300D3E9E7E81A929293B67E5D2 /* Lib */,
+				634B2C22ABBA57BE160151372A31F450 /* Pod */,
+				F1504B21377ECDAF7F3E252C15EA7241 /* Presenter */,
+				90B515DDC6348B91FB4661C81408B3AF /* Protocol */,
+				56C67909F495A9095B1FC5B6AC006D95 /* Resources */,
+				CF02027E6B2E352D2AC53F9478486F00 /* Support Files */,
+				A23F5DC5084518DBD6BB29ECDB9CEDFE /* View */,
+			);
+			name = kratos_framework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		56522E2E20FBF2A46B2A84DC51C8048A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB730201C7E3CF13EE7F27744C9C31 /* MASCompositeConstraint.h */,
+				F4DFF56194FEDDCD591E4DB5257523B4 /* MASCompositeConstraint.m */,
+				EDB6A5F899627A7AAD6B4379C1E77782 /* MASConstraint.h */,
+				4F42CA30D3C2C3B6B77985B0A450BD31 /* MASConstraint.m */,
+				9C6C371A9FF29CB4BF3A8193906B6690 /* MASConstraint+Private.h */,
+				B71DFE4924FED9D6C245614B60AF9265 /* MASConstraintMaker.h */,
+				73243AB2063D8289C4792588125B7E30 /* MASConstraintMaker.m */,
+				FAFEB7394449D5948F0740D78CBD4E11 /* MASLayoutConstraint.h */,
+				1D5DCB8931E065EE4E36FE5D09E17D7E /* MASLayoutConstraint.m */,
+				4DFF1EEB5C33B3848AB5AAC917F91B9D /* Masonry.h */,
+				9C96E4CC1FDE06D269B7A397C0A80242 /* MASUtilities.h */,
+				5C52C8C809226D91B420B812CCAC4B4D /* MASViewAttribute.h */,
+				485470C39BCF72EF451997CF8BFFE6F0 /* MASViewAttribute.m */,
+				04FFFFD49228522D0ABC5B706969D7C3 /* MASViewConstraint.h */,
+				FAB36155EF5228892D0463DF734E7E13 /* MASViewConstraint.m */,
+				9B7EFC134C311376E4FB5929D9E535D3 /* NSArray+MASAdditions.h */,
+				16501606813A74E792C37A6552BB36D7 /* NSArray+MASAdditions.m */,
+				D7EF19CBE19A070053B879237CA9C6AD /* NSArray+MASShorthandAdditions.h */,
+				FCC54A657255C11740C39CFB34934872 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				3A5756ADF2B665C27DAD40238C1F1164 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				B86ED59DB0AA0F2B48FC912B33E86B36 /* View+MASAdditions.h */,
+				B782EC36CA6024480B57801829802F4A /* View+MASAdditions.m */,
+				E24C7CA2075847A71A6ACA434D2A8A7F /* View+MASShorthandAdditions.h */,
+				1646635E0A2744D8E67A4656715FC190 /* ViewController+MASAdditions.h */,
+				9A5F173F00F9917522CE0689F4B97148 /* ViewController+MASAdditions.m */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		56C67909F495A9095B1FC5B6AC006D95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E76EF6FC10361C1A3D70922E0EAD6E9A /* cellphone_34.313253012048px_1166712_easyicon.net.png */,
+				4371CFAE30A92F548BEB9303F76C5AA7 /* phone_22px_1101044_easyicon.net.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		581EF4C4658F51D1B3ABAD019A8A35DB /* Pods-kratos_framework_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D3ED300C24F96A492A3A4DEFC235D229 /* Info.plist */,
+				E36A7575908AD65E651CC0EC5CBD1797 /* Pods-kratos_framework_Example.modulemap */,
+				877E18892892E34CB79D4F39123DC230 /* Pods-kratos_framework_Example-acknowledgements.markdown */,
+				762BCA772C3A09F3D4D757954E38EEBD /* Pods-kratos_framework_Example-acknowledgements.plist */,
+				2BF902B7C6C459360FAFB9A401432FB0 /* Pods-kratos_framework_Example-dummy.m */,
+				4C70EC1F9CA4690A204E8693D5267C84 /* Pods-kratos_framework_Example-frameworks.sh */,
+				BAC7C71DD76C0A31BE3AA9AE7E67FD14 /* Pods-kratos_framework_Example-resources.sh */,
+				C2907EC694BAC1F5A3CEEA0F2964DB0F /* Pods-kratos_framework_Example-umbrella.h */,
+				E786460C137CA8A590EC041DD40D4291 /* Pods-kratos_framework_Example.debug.xcconfig */,
+				7886999A1C7414215B5F008CBF6C86F0 /* Pods-kratos_framework_Example.release.xcconfig */,
+			);
+			name = "Pods-kratos_framework_Example";
+			path = "Target Support Files/Pods-kratos_framework_Example";
+			sourceTree = "<group>";
+		};
+		5E96F3A35E6EF6CB7429C9A3D0BB1F53 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				653F9F7786ABD72EEA5C522B33279B96 /* UIView+Toast.h */,
+				CD4697858C329EA7C0ECB0F5A1B374B1 /* UIView+Toast.m */,
+			);
+			name = Toast;
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		634B2C22ABBA57BE160151372A31F450 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A30A0D1C57471A3E1934C28FEC854B77 /* kratos_framework.podspec */,
+				25A54A09C5B62D6BE7A3ABE265508331 /* LICENSE */,
+				062C0AB96B9A15E6A1D973E6812838FF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A611E4ABF2B4234DC3B050A93131A0BF /* Development Pods */,
+				04826594EB32BC018DC6041DDE8CF348 /* Frameworks */,
+				016CD7E6F1CEE6758118EC9DC91D49F9 /* Pods */,
+				A9B4CEF6207E38F1B2C7200799EAC4A4 /* Products */,
+				49DEEC2A4F262464B68B68A13421311C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD503D3D23BC6E20B095021EBFC8C8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				109A7D2DD8AC5A710D2589B263E4256C /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		86D44F904193984C8BCB7A0506DD5671 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF1D7314E627902ED61A21B20AB0A5 /* AFHTTPSessionManager.h */,
+				1FF6FF1EAAE62670EBD7525770F02E56 /* AFHTTPSessionManager.m */,
+				D2D6909734EC55CB13A00891482695DC /* AFNetworking.h */,
+				1412AC8A1EE354FE65A56033A4641B43 /* AFNetworkReachabilityManager.h */,
+				6C5D5C5AF6E2ABD77B41CC7EF6E1CD0F /* AFNetworkReachabilityManager.m */,
+				8701CE0BA59410FD7DAC81CBD9C1D1D3 /* AFSecurityPolicy.h */,
+				AF24820B7D7DDAE738731DE66BC2562E /* AFSecurityPolicy.m */,
+				51B1DFF3264D6AF3BD1513D79DA92139 /* AFURLRequestSerialization.h */,
+				344DE8AA7F52DC0AFF6BEEFA8DC57438 /* AFURLRequestSerialization.m */,
+				970A7135109DB56E4DE64ABFEDCE4AF4 /* AFURLResponseSerialization.h */,
+				597362C264ED399BC4DDAFFCD6FEAEEC /* AFURLResponseSerialization.m */,
+				616C802A30A851BC5DC82CD26F6317ED /* AFURLSessionManager.h */,
+				E12A23FDA4EF81132B08B76A6AEC0D4B /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		90B515DDC6348B91FB4661C81408B3AF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BF5A538FB57E7D0093EDB8B808FD8 /* Kratos_LoadDataProtocol.h */,
+			);
+			name = Protocol;
+			path = kratos_framework/Classes/cls/Protocol;
+			sourceTree = "<group>";
+		};
+		9D8D4E906EB483456F6661F2202BFDA4 /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				B3241F56F8B6FDB8B8CEB8E25F6C9E7A /* aa_bb_account_bb_aa.h */,
+				B76BA5DDDDC942A6EF767403A936652D /* aa_bb_account_bb_aa.m */,
+				DC4035F6756F98204B718ACE00F07271 /* wefwe_InputView.h */,
+				E1C8576C651CF36EAEC7F80BA4E8630C /* wefwe_InputView.m */,
+			);
+			name = Mobile;
+			path = Mobile;
+			sourceTree = "<group>";
+		};
+		A23F5DC5084518DBD6BB29ECDB9CEDFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92E8F17B754A6DD95EC0FE3E3C2011C9 /* Kratos_baseView.h */,
+				CB9BA3F3B0919CD5DFCDA49168B8A234 /* Kratos_baseView.m */,
+				2307739EE9F3DCE9BC43C18EF9B88B54 /* Account */,
+				9D8D4E906EB483456F6661F2202BFDA4 /* Mobile */,
+				E72AA9C7E459276589D6DE878FFDF609 /* module */,
+				4A2965F866FF090D38ED96A235D5A690 /* Register */,
+			);
+			name = View;
+			path = kratos_framework/Classes/cls/View;
+			sourceTree = "<group>";
+		};
+		A611E4ABF2B4234DC3B050A93131A0BF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51D6D904B5DA20D6BA54C42452D8B9D2 /* kratos_framework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A9B4CEF6207E38F1B2C7200799EAC4A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116CFD4EBCF32DF79D4887388E54A8FC /* IQKeyboardManager.framework */,
+				188768645A8D8725521FEA94D02893F6 /* kratos_framework.bundle */,
+				1E51BF362355E283CB01AA4601B36A4A /* kratos_framework.framework */,
+				96833BF021E4C7CB2DF2900FFA774023 /* KratosDropDown.framework */,
+				2A44F765C8B27C280B93DD6A0EAFB0B1 /* Pods_kratos_framework_Example.framework */,
+				089DF429A9C251D5D130F31008055FC4 /* Pods_kratos_framework_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B44F9CDFAB6CA46B9EE6293A7F1C5DEF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1D78CC1E8D3485CCE2DD1D9C846E79DE /* CoreGraphics.framework */,
+				7E606BDB74F613E8CB3C1467BCD38E40 /* Foundation.framework */,
+				2F85D4532B4FB2AD3C7FC3361FA32366 /* QuartzCore.framework */,
+				F0A321C953C9C9DABF1B4DD4127A828A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF02027E6B2E352D2AC53F9478486F00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63D33B6D95FEF34B4ECAE5D10D33273 /* Info.plist */,
+				BD0F5BB6A20F1A7F7EFFFB708E735CCA /* kratos_framework.modulemap */,
+				BB81AE41190C12619238DA9192AF1AD5 /* kratos_framework.xcconfig */,
+				54FE9264BE0749C51AFAD57683CF8628 /* kratos_framework-dummy.m */,
+				0D185BFF412FD663DA93F8B19F5E0119 /* kratos_framework-prefix.pch */,
+				231F0B46B01E4E5262E7EED1B86C98F7 /* kratos_framework-umbrella.h */,
+				0AD296EBCCD7A936C98130574189CC65 /* ResourceBundle-kratos_framework-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/kratos_framework";
+			sourceTree = "<group>";
+		};
+		D274015F8D1612DC8BC6009F425A21F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				593EF3E8863CF81A6A4B12FA9847401D /* ffffff_baseViewController.h */,
+				B843B8221952FE13ECA917AE6B3A530E /* ffffff_baseViewController.m */,
+				22514093FB9B0F04EBF5673985C8CCD7 /* fffffff_MainViewController.h */,
+				333AA0C29CD4A48B64208D95B1360DF2 /* fffffff_MainViewController.m */,
+				3E0CAEEC5D064A773EAC4FA2860F6DF4 /* Kratos_ForgotVC.h */,
+				E94517B92A6C6E93C9E8495A57EB6DF3 /* Kratos_ForgotVC.m */,
+				6D217FB71EBE090472D2467862EF51B7 /* Kratos_LongZhuLogin.h */,
+				1A3C2DA26F4A10CC1E5353547A838964 /* Kratos_LongZhuLogin.m */,
+				3141FE0BD2E28906E80FA21BCCBA5AE3 /* Kratos_QuickLoginVC.h */,
+				4D1312D0D595C61EBDCC370351B69005 /* Kratos_QuickLoginVC.m */,
+				F1D49D440A00F4300C90276EB2BA11C9 /* Kratos_RegisterVC.h */,
+				59D48BEBC5FCDC232956C327EB1813FF /* Kratos_RegisterVC.m */,
+			);
+			name = Controller;
+			path = kratos_framework/Classes/cls/Controller;
+			sourceTree = "<group>";
+		};
+		E3493765355B9B963EC47F6FF387376D /* KratosDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				85032A8887279103C1EA1877133333FE /* DPDConstants.swift */,
+				3C9EE60856812DCEFC3DAFF2E1ED57A0 /* DPDKeyboardListener.swift */,
+				048A4CF40696A4AF7FC7770CE9DFC4A3 /* DPDUIView+Extension.swift */,
+				0022C0821F322030DB4567729D60E207 /* DropDown.swift */,
+				6A6A80834E2AB478F257A692821BA80F /* DropDown+Appearance.swift */,
+				3C0777AE916E4317B387F842D28F24AF /* DropDownCell.swift */,
+				15489E02C8309BA0C5AE9BB6984409D2 /* Resources */,
+				4E5FA6A1DF47BB2710D9293056802721 /* Support Files */,
+			);
+			name = KratosDropDown;
+			path = KratosDropDown;
+			sourceTree = "<group>";
+		};
+		E72AA9C7E459276589D6DE878FFDF609 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				2ECDBF5CCF10C319D0DCB18E533EC4B8 /* fiw12_agreeView113.h */,
+				BFA46D511B477B9571AFFAD825F3FD4D /* fiw12_agreeView113.m */,
+				EA49EFEE127218C9E3921E4EA8790A42 /* JKCountDownButton.h */,
+				1B9983AAE86E84A2C3B12BB86BA49F26 /* JKCountDownButton.m */,
+				557AEF80860B40E72FB37D017D2FD80F /* kwewf_input.h */,
+				003FA655843BC144431719902EE39CE0 /* kwewf_input.m */,
+				34DF69421EA3F68ED86F0CED4C5F120C /* kwewf_inputCode.h */,
+				2564DA587BB5749342DAF18C21E241F9 /* kwewf_inputCode.m */,
+				908BE2F8CE75472692925F4F5F2DAECE /* kwewf_phoneinput.h */,
+				426DBC0B0E0FE3879F65D6EC8641B4D0 /* kwewf_phoneinput.m */,
+				64D21DB187FF1229260A2AA2AA93E611 /* kwewf_pwdinput.h */,
+				C5CFF241386F5690043C827DA56E170A /* kwewf_pwdinput.m */,
+			);
+			name = module;
+			path = module;
+			sourceTree = "<group>";
+		};
+		EB7B756FB2E159B2F76F88E95F9A045C /* Pods-kratos_framework_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C60871DCB6D63D40104E0B853A7FB1 /* Info.plist */,
+				C4A01107A2EF45FD1DAD545B1BFF5DFB /* Pods-kratos_framework_Tests.modulemap */,
+				E9F4ACE7AAC42073CFD1E43FD66F0629 /* Pods-kratos_framework_Tests-acknowledgements.markdown */,
+				9B49F232369F1CE2C4A36194500F3C97 /* Pods-kratos_framework_Tests-acknowledgements.plist */,
+				4DCD83343E9C914CC768D8F7380B7A1E /* Pods-kratos_framework_Tests-dummy.m */,
+				ADA089277394E7D9272DB5DB1129918A /* Pods-kratos_framework_Tests-frameworks.sh */,
+				BC24DF8EC3B0FA66625D1A11EB6226E1 /* Pods-kratos_framework_Tests-resources.sh */,
+				84BA26A2E6E7173763FA39180BB243A6 /* Pods-kratos_framework_Tests-umbrella.h */,
+				2891E446AF7934A6E415D641FB5528DA /* Pods-kratos_framework_Tests.debug.xcconfig */,
+				B813C8333CA19DABECF3B00BDA4A0EA2 /* Pods-kratos_framework_Tests.release.xcconfig */,
+			);
+			name = "Pods-kratos_framework_Tests";
+			path = "Target Support Files/Pods-kratos_framework_Tests";
+			sourceTree = "<group>";
+		};
+		ED05F9FC503FC9B41CB5D4B8075FB320 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				64B1DC66020D3884CDCAEC484311E92F /* IQBarButtonItem.h */,
+				F847E96FFF3A72AFECEF213248AA8B47 /* IQBarButtonItem.m */,
+				FC114B75A90AAE421B7F312E454720C4 /* IQKeyboardManager.h */,
+				7B0BCD48345BFBB74ECD143131024803 /* IQKeyboardManager.m */,
+				6DD5CE5C26E99D7128E50AD26D16E5D4 /* IQKeyboardManagerConstants.h */,
+				AEAD927C8E04E20F9D7B0981878A886C /* IQKeyboardManagerConstantsInternal.h */,
+				267885482737AADB7363CC17381D9FBB /* IQKeyboardReturnKeyHandler.h */,
+				9480F9B7B34102D6841F91C8EC3C82EA /* IQKeyboardReturnKeyHandler.m */,
+				F7AA65F7810384AB42EBB3E59B7F53A1 /* IQNSArray+Sort.h */,
+				466C657E9800F6C372DFA6373D0E6860 /* IQNSArray+Sort.m */,
+				BE08F8943BA3CFA5FE225D0A5B3C71CC /* IQPreviousNextView.h */,
+				FBD80B39A368EB891A7F4D182D2D5204 /* IQPreviousNextView.m */,
+				5C14A17233F2A8C437F756ACBE60425A /* IQTextView.h */,
+				11785F389CE7FD44006B4746FA2AE588 /* IQTextView.m */,
+				FEFA692B4530BE96DFE716D10F0EB4DA /* IQTitleBarButtonItem.h */,
+				0E7C4E0615205FBB5E315BE6165FC281 /* IQTitleBarButtonItem.m */,
+				636676280F4A6684FCA8AD5319C8A10B /* IQToolbar.h */,
+				32D78A2D8963D9904F0B08C96529136C /* IQToolbar.m */,
+				7471C4E002469B078E1CCD30EC83F1BA /* IQUIScrollView+Additions.h */,
+				715971C814A827E2E6C1E7C08E63B441 /* IQUIScrollView+Additions.m */,
+				7C75193100C789F3702B6301ACE7053E /* IQUITextFieldView+Additions.h */,
+				076A004A478689E03C7CFA95207DF01A /* IQUITextFieldView+Additions.m */,
+				021B08F220A1EA3E141D5037418FCE9C /* IQUIView+Hierarchy.h */,
+				303B0CC123BD5AF4B2358040F28D85A5 /* IQUIView+Hierarchy.m */,
+				668054EA91141CEB484C694E54F305B7 /* IQUIView+IQKeyboardToolbar.h */,
+				C1980DB70F4CC3C6DD3B9A5637FB5E66 /* IQUIView+IQKeyboardToolbar.m */,
+				4BBEC61A3F39D7A6B784CB25F3A44819 /* IQUIViewController+Additions.h */,
+				A24D5402C2AF7F56AC94E1747E4E309F /* IQUIViewController+Additions.m */,
+				7DD503D3D23BC6E20B095021EBFC8C8B /* Resources */,
+				2203E5A8B83E23AFBF391B18A069216C /* Support Files */,
+			);
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		F1504B21377ECDAF7F3E252C15EA7241 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C2C130705F4C8C3560322D6876AB9 /* Kratos_HttpPresenter.h */,
+				157F0F11EF4BC1F31F153E6895C8C524 /* Kratos_HttpPresenter.m */,
+				B6260A5871C5AA2C32F3D091273157FE /* Kratos_MainViewControllerPresenter.h */,
+				6AD546E5B95955624F84352D9A430A52 /* Kratos_MainViewControllerPresenter.m */,
+				3723507DF3C621F976E978CB93C06D78 /* Kratos_Presenter.h */,
+				C7A9AD195727D000806A49A39C22FBF9 /* Kratos_Presenter.m */,
+			);
+			name = Presenter;
+			path = kratos_framework/Classes/cls/Presenter;
+			sourceTree = "<group>";
+		};
+		F4FB8CF48122005FCAD4157B7699E226 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F8A25EFB260CBECCD5C1E1974CDBA28A /* MBProgressHUD.h */,
+				063DE2B970023B04F7F21C87F4871EFD /* MBProgressHUD.m */,
+				9AFFDE8B7FCE6511D6549D2CBF45A6C1 /* TYProgressHUD.h */,
+				7B4C08BD02534FB23BEBC01A2D7F9AB1 /* TYProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		F8560188546081AF836BB022FFE97EAC /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				43EAF3C76EB4BB7D0BCDA1FAD60C51C0 /* Example */,
+				5E96F3A35E6EF6CB7429C9A3D0BB1F53 /* Toast */,
+			);
+			name = Toast;
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		FB6DD4697FEA4AB9BD9D5A392F4F9045 /* Cate */ = {
+			isa = PBXGroup;
+			children = (
+				C26C635F74ECE7483788367AD972366C /* CALayer+UIcolorToCGcolor.h */,
+				F4380516EC422BCC364067B15CBDC215 /* CALayer+UIcolorToCGcolor.m */,
+				E61F2CBA01FAE6171191D0ED523A1B2F /* UIImage+kkkk_LoadBundleImage.h */,
+				3007F587AC1900A3E79CC0F525540AFB /* UIImage+kkkk_LoadBundleImage.m */,
+				56128F85DEDE19CDAD4F90164CB3DAC9 /* UIView+kkk_viewExtionsion.h */,
+				6B6CE680BA178FF77061D67B30841510 /* UIView+kkk_viewExtionsion.m */,
+			);
+			name = Cate;
+			path = kratos_framework/Classes/cls/Cate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03AB14DB0235B494910320324F3BF2C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0648973667FB537BDC3ABFA9F3AD2ED8 /* IQBarButtonItem.h in Headers */,
+				85F02B2E2F922F439A12C7CBB077E8DE /* IQKeyboardManager-umbrella.h in Headers */,
+				14479278EA90F38247811468ADD8EBB7 /* IQKeyboardManager.h in Headers */,
+				C49ED0BA3BE26C50F202C5ED5FB85573 /* IQKeyboardManagerConstants.h in Headers */,
+				B21C3C93DAA23B1C331B9326991CDCFC /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				3619E77A8EC11571EE9F32921DAC0C89 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				688E0882DFC8CABA02390F43178CB33F /* IQNSArray+Sort.h in Headers */,
+				CF4EB3350726A86BCCDF5F363C5FCE72 /* IQPreviousNextView.h in Headers */,
+				AAC6DB8270C474C50F5D71DE9BC73382 /* IQTextView.h in Headers */,
+				99249B44D65716B5CCA0BFFD5F83062C /* IQTitleBarButtonItem.h in Headers */,
+				7CF3668C8E30DA3CAB92C9C6A8B88B8F /* IQToolbar.h in Headers */,
+				06FF2586AE76FBBCBF8171F98255D8CB /* IQUIScrollView+Additions.h in Headers */,
+				B05BDA89A18DA866355AD804B694F851 /* IQUITextFieldView+Additions.h in Headers */,
+				63F5BA839B931DB6605554B6D4369A0C /* IQUIView+Hierarchy.h in Headers */,
+				639A86F8EDAF569092C61103FFAEA21D /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				13D87E1D99CFD98771E8066E6FF832CD /* IQUIViewController+Additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B8C94A084EB68168BF9BA0F2786BDAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB23E9C11DEC13E2C1DB190C3819649 /* aa_bb_account_bb_aa.h in Headers */,
+				D613E791C1CC77B2AD917D7F5384044B /* aa_bbPlatform_aa_bb.h in Headers */,
+				28356C23749927FFA41F5351A486704B /* AFHTTPSessionManager.h in Headers */,
+				92790016CCF8551D342BC6C0446A84D8 /* AFNetworking.h in Headers */,
+				69063D8B9E976D52C5BE52B5053111E9 /* AFNetworkReachabilityManager.h in Headers */,
+				DCE95F50DCCB733693AA11CF9E4EE4F2 /* AFSecurityPolicy.h in Headers */,
+				974547A0562A7587043A24804AA63E8E /* AFURLRequestSerialization.h in Headers */,
+				97C75C34C31588544818B3C5C6A11D41 /* AFURLResponseSerialization.h in Headers */,
+				A7538C981A01539DEB545D2117A03237 /* AFURLSessionManager.h in Headers */,
+				5CD49DB64CD87393304E6FA5ED70B6EE /* CALayer+UIcolorToCGcolor.h in Headers */,
+				AB687A85D857FAC40065EE32451113EC /* CSAppDelegate.h in Headers */,
+				8243F94BC64B1F0A5BC5553F70324611 /* CSViewController.h in Headers */,
+				3CF1125F097852DB9C4B3DE43CF9D4D2 /* ffffff_baseViewController.h in Headers */,
+				8E611F825C626362B4B996E1611CE28A /* fffffff_MainViewController.h in Headers */,
+				C7DEE3F45AB5DC35D311F04DE94C932C /* fiw12_agreeView113.h in Headers */,
+				C8D76B218B9925CB9067D8C06B5225C2 /* fwfweew_Tool.h in Headers */,
+				5199B182875DA82C6A32EA2E04C8204B /* JKCountDownButton.h in Headers */,
+				9BF76A2667CA0BE26CB933E417696269 /* k_const.h in Headers */,
+				1EE9C6B8DD1C01F1E04DDA0D4B86AC52 /* Kratos_baseView.h in Headers */,
+				EA6E0F5A24DEB64EAE9D9B0EE4B17B74 /* Kratos_ForgotVC.h in Headers */,
+				74DD9F91712532ED625BBC911D7396F5 /* kratos_framework-umbrella.h in Headers */,
+				45D3205C91CE02C840F45886F88019D7 /* Kratos_HttpPresenter.h in Headers */,
+				98BA8AD45BAAD95E7EB38E31F02291D3 /* Kratos_LoadDataProtocol.h in Headers */,
+				17450F9ABD1D8FA233E5C7DFBFBD3781 /* Kratos_longzhuInputView.h in Headers */,
+				65CE6AC05CDDD418249CE1D72E77B797 /* Kratos_LongZhuLogin.h in Headers */,
+				9B4EDA86F1CEB25CFE76E7F8EBE8C760 /* Kratos_longzhuloginView.h in Headers */,
+				D996B3BD4EE4415476AC94DB0C66CCAA /* Kratos_MainViewControllerPresenter.h in Headers */,
+				DA32BF788AD9D209A4CF843AAC2BF69F /* Kratos_Presenter.h in Headers */,
+				3DE3DB627AFDDCEB2AEF434F7B7BF058 /* Kratos_QuickInputView.h in Headers */,
+				02FD9D154584C0981A3CE20994D8E9D0 /* Kratos_QuickLoginVC.h in Headers */,
+				77EEB1786D8270A4EEFDBE3127E03CF3 /* Kratos_QuickView.h in Headers */,
+				1D042E07BA5611EC9DE86A2C879122EB /* Kratos_RegisiterView.h in Headers */,
+				BF55C29557E52DAA06C1EC9638E70F27 /* Kratos_RegisterVC.h in Headers */,
+				5496900090FF2366AD298AB131388FA0 /* Kratos_RegiterInputView.h in Headers */,
+				087449D4800AFC5039D66B40964978DE /* kwewf_input.h in Headers */,
+				E8A2057C172F60CED461E5E21AFAE11C /* kwewf_inputCode.h in Headers */,
+				0CB7678CF61C205E45AFD835E18A8DA1 /* kwewf_phoneinput.h in Headers */,
+				8F91869FCA051F99074A8D9C67B32282 /* kwewf_pwdinput.h in Headers */,
+				1369877AE876D3A8F5837437EFB39557 /* MASCompositeConstraint.h in Headers */,
+				0E777ED75217CD0A9AE271AFF6DC2A5F /* MASConstraint+Private.h in Headers */,
+				AE1CD1275375820C18DCA1214793D578 /* MASConstraint.h in Headers */,
+				D63A1C7482A8191B9574E24DD2779961 /* MASConstraintMaker.h in Headers */,
+				38197D36440B39D328C1F74C13AC718D /* MASLayoutConstraint.h in Headers */,
+				4FD0B5D0294A69012B75BDE920A7FB02 /* Masonry.h in Headers */,
+				EC217510BFBE8EEAAF48B44847D77CF9 /* MASUtilities.h in Headers */,
+				DFBA38199D95146724F7E238FDA2BF20 /* MASViewAttribute.h in Headers */,
+				8C0C4D12C5C8B6CA8C96826F70A5E8D7 /* MASViewConstraint.h in Headers */,
+				0BFEAA3A8A7D3532046B0883BF5901B0 /* MBProgressHUD.h in Headers */,
+				47F609A09F0F1B64931C81A2B2442348 /* NSArray+MASAdditions.h in Headers */,
+				6F8DE883E276F1AC8800302058C8C775 /* NSArray+MASShorthandAdditions.h in Headers */,
+				AE0A70D24483CFE72BC6B0D0B59FBC72 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				49B2818C7EED982BE7733CB5E83CDBD9 /* single.h in Headers */,
+				85127678032A1899B39DB8AE9E339F9B /* TYProgressHUD.h in Headers */,
+				DBE1B84E9906EF1E070A2E46B1BF784B /* UIImage+kkkk_LoadBundleImage.h in Headers */,
+				B75924A9164D87A3C51A58F00BBCC72A /* UIView+kkk_viewExtionsion.h in Headers */,
+				C651F16A25BB4BFEC2AA327AEE9EECF3 /* UIView+Toast.h in Headers */,
+				D7E5A3E78897E4D0E7C8086636CE99B3 /* View+MASAdditions.h in Headers */,
+				A6288468136D70BB438BDD8C8E431E2F /* View+MASShorthandAdditions.h in Headers */,
+				EA14810DF4DB81EF85B224C83EF12229 /* ViewController+MASAdditions.h in Headers */,
+				A3112F9827A9E704A87CED7CA8E5936F /* wefwe_InputView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F5DDC243EE6AEAB8787C49DC8D32F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91362D056BAD24F3D8A50B6C01B4DD7 /* Pods-kratos_framework_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B209FE4C4BE05847B19BAE9D083653C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21365AC7401731B59AD84A35DD4BBD21 /* Pods-kratos_framework_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58F136F7A3D17D41F5BB6C05A42569A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF6574CE676DC9A21B7CAB835646124 /* KratosDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		681671825E21350C67EA4DC0A047D605 /* kratos_framework-kratos_framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EDC4B29108ADFC6946C8F3908EE6C4 /* Build configuration list for PBXNativeTarget "kratos_framework-kratos_framework" */;
+			buildPhases = (
+				E5F5498E5166CF29C6A478AF71E46AE2 /* Sources */,
+				8C347CC2363577353B097F4B3449BD1A /* Frameworks */,
+				669096DF3A7A401194DB2ED59A7136EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kratos_framework-kratos_framework";
+			productName = "kratos_framework-kratos_framework";
+			productReference = 188768645A8D8725521FEA94D02893F6 /* kratos_framework.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6F6B439F7EBAD4322F277398E356371E /* Pods-kratos_framework_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06749984F4071D61A367D264E1A800C9 /* Build configuration list for PBXNativeTarget "Pods-kratos_framework_Example" */;
+			buildPhases = (
+				7BC171F87F3567B3CD6F6BD0758C9A56 /* Sources */,
+				01E991E1090A6C4D3745379D8E19790C /* Frameworks */,
+				60F5DDC243EE6AEAB8787C49DC8D32F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62C93E4171C29BFFF70316C4C801FABB /* PBXTargetDependency */,
+				FC82C897BE0709258DC53CC2325166BC /* PBXTargetDependency */,
+				51F3497C93D0F1D61F06F0E7CA13F12A /* PBXTargetDependency */,
+			);
+			name = "Pods-kratos_framework_Example";
+			productName = "Pods-kratos_framework_Example";
+			productReference = 2A44F765C8B27C280B93DD6A0EAFB0B1 /* Pods_kratos_framework_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8910486381130C7DB157D52C62DFB098 /* kratos_framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A1D1D9F4E3D4D4627A524D14662627 /* Build configuration list for PBXNativeTarget "kratos_framework" */;
+			buildPhases = (
+				9BBBD6E18886DB6BA7462AA12F40DFF2 /* Sources */,
+				9BFBE8ABCB6421594DC3E7F6747AC931 /* Frameworks */,
+				93E81AF869E9EF1BB291A0D2782DDEA3 /* Resources */,
+				0B8C94A084EB68168BF9BA0F2786BDAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				400C445F97A28EFD01ADC720076CBACD /* PBXTargetDependency */,
+				9CB9A98213DF5F60784E94AB24C127A5 /* PBXTargetDependency */,
+				DA4C9046093C43A81C9236BA8E2B5DAE /* PBXTargetDependency */,
+			);
+			name = kratos_framework;
+			productName = kratos_framework;
+			productReference = 1E51BF362355E283CB01AA4601B36A4A /* kratos_framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A072D3897579F2F36B7620477B64CBF2 /* KratosDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7810DC24B5139C3913509C6B60B280B1 /* Build configuration list for PBXNativeTarget "KratosDropDown" */;
+			buildPhases = (
+				858F884C753C35311E93A40AE3163B4D /* Sources */,
+				65D4F47DE3AF4143BD73BDFA50F66E3D /* Frameworks */,
+				37AF1297A8151CAD94443D7776585F6D /* Resources */,
+				E58F136F7A3D17D41F5BB6C05A42569A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KratosDropDown;
+			productName = KratosDropDown;
+			productReference = 96833BF021E4C7CB2DF2900FFA774023 /* KratosDropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D55833EC3DE9EBD9B329CAEB983D5A9D /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A2379BF2B87BFC7BA495F9BD85DD28 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				EF7C3A296212CFB87AC9B8A7939E3733 /* Sources */,
+				8944C0B131AF550CF6CC8073435E22F2 /* Frameworks */,
+				03AB14DB0235B494910320324F3BF2C2 /* Headers */,
+				2E730D5A406D8720DD8830A43109145D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = 116CFD4EBCF32DF79D4887388E54A8FC /* IQKeyboardManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7B9A847C125311B7FBB2D3D1F3F6C7F /* Pods-kratos_framework_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D7C69A6C8EC7180248A32A96D38CCC4 /* Build configuration list for PBXNativeTarget "Pods-kratos_framework_Tests" */;
+			buildPhases = (
+				BB706FA03E129500A63A0097186479C5 /* Sources */,
+				D0D873F3CFDBB5E4B0B00F8C598D40F1 /* Frameworks */,
+				B209FE4C4BE05847B19BAE9D083653C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EF529A033BBE04F9C6B780BFD8F03F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-kratos_framework_Tests";
+			productName = "Pods-kratos_framework_Tests";
+			productReference = 089DF429A9C251D5D130F31008055FC4 /* Pods_kratos_framework_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A9B4CEF6207E38F1B2C7200799EAC4A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D55833EC3DE9EBD9B329CAEB983D5A9D /* IQKeyboardManager */,
+				8910486381130C7DB157D52C62DFB098 /* kratos_framework */,
+				681671825E21350C67EA4DC0A047D605 /* kratos_framework-kratos_framework */,
+				A072D3897579F2F36B7620477B64CBF2 /* KratosDropDown */,
+				6F6B439F7EBAD4322F277398E356371E /* Pods-kratos_framework_Example */,
+				E7B9A847C125311B7FBB2D3D1F3F6C7F /* Pods-kratos_framework_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E730D5A406D8720DD8830A43109145D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788BA72F67004504FFDFC670048786B5 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37AF1297A8151CAD94443D7776585F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A3818C28B5F3BBDB4B96687427CCDA /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669096DF3A7A401194DB2ED59A7136EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE3D57631ABFC76164A70469741EFAC /* cellphone_34.313253012048px_1166712_easyicon.net.png in Resources */,
+				73067B802A18698E42355B2733AE80E5 /* phone_22px_1101044_easyicon.net.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E81AF869E9EF1BB291A0D2782DDEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A7AE132D23A064C6D87EC9A5BA746C /* kratos_framework.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BC171F87F3567B3CD6F6BD0758C9A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15A9D851C64139541CE9582098205DA /* Pods-kratos_framework_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858F884C753C35311E93A40AE3163B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3394D8C3019F45B2B27EA714B03171F4 /* DPDConstants.swift in Sources */,
+				F288FF37E374B5917D469E250FCD21D2 /* DPDKeyboardListener.swift in Sources */,
+				8B274E62F4BBFB177086196F02C1F2F8 /* DPDUIView+Extension.swift in Sources */,
+				B78E630A66DBA1A24BB892BD7A4941CF /* DropDown+Appearance.swift in Sources */,
+				3929398CFD71F742891C466CECD08AD8 /* DropDown.swift in Sources */,
+				37063C18CE7507261B88C9F47D7B11B2 /* DropDownCell.swift in Sources */,
+				78A3756A852CAA6F344D85308EF8902A /* KratosDropDown-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBBD6E18886DB6BA7462AA12F40DFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1CF78E3618AA9410FA41FBD9CD7D4C /* aa_bb_account_bb_aa.m in Sources */,
+				1FC5EFA325399E19B0BBA16204082D7B /* aa_bbPlatform_aa_bb.m in Sources */,
+				5CB6036AF4BEBCE357028C06B7A97B96 /* AFHTTPSessionManager.m in Sources */,
+				9FD5EB3F72133D5921EAB2442EF32B96 /* AFNetworkReachabilityManager.m in Sources */,
+				1EFE9907AC8D62373AAFB1237C507E8E /* AFSecurityPolicy.m in Sources */,
+				ADBA16CEFBBCCC4CD75EBADCB40D2A9C /* AFURLRequestSerialization.m in Sources */,
+				FB00ABC3387AF08323DA1F7FCD54B343 /* AFURLResponseSerialization.m in Sources */,
+				B5C77DBFCE53D879007EC94F77912633 /* AFURLSessionManager.m in Sources */,
+				623472154ED0E40BEAC86492A89031C2 /* CALayer+UIcolorToCGcolor.m in Sources */,
+				19FEA67C29DA4B95DD0BBF2EF43E9626 /* CSAppDelegate.m in Sources */,
+				18EC97DE4F008D0592A09B394FA24AAF /* CSViewController.m in Sources */,
+				291266C72D6DC30F82F6307EC4CCEF11 /* ffffff_baseViewController.m in Sources */,
+				E0524E3450C6F6F41AFD128C5D4059BC /* fffffff_MainViewController.m in Sources */,
+				015356B25F75DB511802D2435CF934BA /* fiw12_agreeView113.m in Sources */,
+				37861E335EB0553648A4AE5DD6B91313 /* fwfweew_Tool.m in Sources */,
+				252B36C42CCA84CB789A9CFCF462FB48 /* JKCountDownButton.m in Sources */,
+				C8F307E0B15E904C18242510FD7CF204 /* Kratos_baseView.m in Sources */,
+				2B8552DA143D460B3EC0AE3ECB813482 /* Kratos_ForgotVC.m in Sources */,
+				4DE0BE3E4F73A6D8A32F85AC0E10C92C /* kratos_framework-dummy.m in Sources */,
+				0477126CEF6F0C3FDAA1BA2C4AE3B28B /* Kratos_HttpPresenter.m in Sources */,
+				62795489A3429BC056CADA98D41108C7 /* Kratos_longzhuInputView.m in Sources */,
+				E512CFF2439F59FCC2CB9F696EDBE649 /* Kratos_LongZhuLogin.m in Sources */,
+				96FF274A797D289C7CC9573318347AD4 /* Kratos_longzhuloginView.m in Sources */,
+				D71282197C19FAAE42908B2307D0084E /* Kratos_MainViewControllerPresenter.m in Sources */,
+				7A1C359AC20FBBDAC9709C0BA98DB386 /* Kratos_Presenter.m in Sources */,
+				AAEDF7BB57091BCE21B56169C7AD6FBA /* Kratos_QuickInputView.m in Sources */,
+				D3895FCEAC77F0EDB62075D8E78BB438 /* Kratos_QuickLoginVC.m in Sources */,
+				CD170836E0F5326AC11097762EE58EF1 /* Kratos_QuickView.m in Sources */,
+				18FB24F90A1888EF8F53614C0B16C5D3 /* Kratos_RegisiterView.m in Sources */,
+				CF47209EB44C0B7A3C208C401BBD3B4C /* Kratos_RegisterVC.m in Sources */,
+				6EECC6C01D01881C527984B0B5C025F4 /* Kratos_RegiterInputView.m in Sources */,
+				C053322D6DEC947061D754991AF841C1 /* kwewf_input.m in Sources */,
+				926822ABC5A0F74902AE78980E0D4EE4 /* kwewf_inputCode.m in Sources */,
+				1AB0836179BD004F7D2952E9643993CE /* kwewf_phoneinput.m in Sources */,
+				16ACDCDF678561A8BB12A69099552B84 /* kwewf_pwdinput.m in Sources */,
+				4C49BD790445247092BF3B38BFCA20BB /* MASCompositeConstraint.m in Sources */,
+				3F663DCDC6F63C2B4F40D4ABEBAD752E /* MASConstraint.m in Sources */,
+				E6D98613B264C8ACF24F05415D8F4BB7 /* MASConstraintMaker.m in Sources */,
+				B841E9E1A651E351F21C790FFA390CD1 /* MASLayoutConstraint.m in Sources */,
+				42A6BC1EE1A271279C1EE7D549997D70 /* MASViewAttribute.m in Sources */,
+				81DCDD14D0BA9EDCEE2DBCB8319BCD17 /* MASViewConstraint.m in Sources */,
+				206AFF06C55476E95EAA68E40CE73C8B /* MBProgressHUD.m in Sources */,
+				88D5BD859733F140BD6AF53C0ADCFCF2 /* NSArray+MASAdditions.m in Sources */,
+				57DF547057DAE2E19800B103B0B08FF6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				97FF1CCC2B1F477146C2ACA5DE15A7A5 /* TYProgressHUD.m in Sources */,
+				6A98C77982DB04F59B6A8155733B2ACD /* UIImage+kkkk_LoadBundleImage.m in Sources */,
+				C2A388B0E8C676C1CFD4D1B3451A737E /* UIView+kkk_viewExtionsion.m in Sources */,
+				DE18038BDF8BE7B8D651D3D3B68CA630 /* UIView+Toast.m in Sources */,
+				FA4C324870D17B23D7E19512907467B2 /* View+MASAdditions.m in Sources */,
+				96E8583D1E1CC168B8CEFDF707D37CBE /* ViewController+MASAdditions.m in Sources */,
+				D3FDA45174E48B5E3538EA4B19657A24 /* wefwe_InputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB706FA03E129500A63A0097186479C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800C5C255113DAEC62697052CD650F44 /* Pods-kratos_framework_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F5498E5166CF29C6A478AF71E46AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7C3A296212CFB87AC9B8A7939E3733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB2E34289D18AA9810609ADCCBFA181 /* IQBarButtonItem.m in Sources */,
+				A3CE2D718CEB5AC059823178404AF0EF /* IQKeyboardManager-dummy.m in Sources */,
+				2D407C6492BC569F5361B9210C89A19C /* IQKeyboardManager.m in Sources */,
+				E802560B425A04296159872675948D29 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				7C49A18841060D12A58F92CE62C21F9D /* IQNSArray+Sort.m in Sources */,
+				C2B7F4EB405C401EA53023341C05E15E /* IQPreviousNextView.m in Sources */,
+				72EE4A5DC3076CD8C13717D4DAA37DFD /* IQTextView.m in Sources */,
+				958FEEE31215AB970371D4CBAEB8A4DC /* IQTitleBarButtonItem.m in Sources */,
+				CA1E205A4D3A8515ED42F76C2671F1BA /* IQToolbar.m in Sources */,
+				431C76067CB09B1FC0E4DD5AEA6B540A /* IQUIScrollView+Additions.m in Sources */,
+				665B3B037B98D3E3ADB449A43FF14F42 /* IQUITextFieldView+Additions.m in Sources */,
+				DEB92E2DB086E554AEA1DBFA8A9F00D0 /* IQUIView+Hierarchy.m in Sources */,
+				C4AA57B938513DE614A7B90AEF5CD858 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				C480AC5D32406D4901116FCAC5FB0EB5 /* IQUIViewController+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		400C445F97A28EFD01ADC720076CBACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = D55833EC3DE9EBD9B329CAEB983D5A9D /* IQKeyboardManager */;
+			targetProxy = EAAAD7AFC21659BC7A438D9A3B148C2A /* PBXContainerItemProxy */;
+		};
+		51F3497C93D0F1D61F06F0E7CA13F12A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = kratos_framework;
+			target = 8910486381130C7DB157D52C62DFB098 /* kratos_framework */;
+			targetProxy = 2FEFC668B1A1B6229B9FD0C5283DA9C1 /* PBXContainerItemProxy */;
+		};
+		5EF529A033BBE04F9C6B780BFD8F03F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-kratos_framework_Example";
+			target = 6F6B439F7EBAD4322F277398E356371E /* Pods-kratos_framework_Example */;
+			targetProxy = 0590E47925C438B9596E27422E30AE2C /* PBXContainerItemProxy */;
+		};
+		62C93E4171C29BFFF70316C4C801FABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = D55833EC3DE9EBD9B329CAEB983D5A9D /* IQKeyboardManager */;
+			targetProxy = 4638A6745FAF970DF274937A1558FC56 /* PBXContainerItemProxy */;
+		};
+		9CB9A98213DF5F60784E94AB24C127A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KratosDropDown;
+			target = A072D3897579F2F36B7620477B64CBF2 /* KratosDropDown */;
+			targetProxy = 62612C88F132613A7599FB3E9DA1FC99 /* PBXContainerItemProxy */;
+		};
+		DA4C9046093C43A81C9236BA8E2B5DAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "kratos_framework-kratos_framework";
+			target = 681671825E21350C67EA4DC0A047D605 /* kratos_framework-kratos_framework */;
+			targetProxy = 663B50F8804AAAEEFC5B046314209036 /* PBXContainerItemProxy */;
+		};
+		FC82C897BE0709258DC53CC2325166BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KratosDropDown;
+			target = A072D3897579F2F36B7620477B64CBF2 /* KratosDropDown */;
+			targetProxy = A626DF3B594126ABACC8FF0A922524F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1924A5C8EFBD8520CED4E808190C8942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB81AE41190C12619238DA9192AF1AD5 /* kratos_framework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/kratos_framework/kratos_framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/kratos_framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/kratos_framework/kratos_framework.modulemap";
+				PRODUCT_MODULE_NAME = kratos_framework;
+				PRODUCT_NAME = kratos_framework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27F3FA1D0F7468D6C76F0F670216716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB81AE41190C12619238DA9192AF1AD5 /* kratos_framework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/kratos_framework";
+				INFOPLIST_FILE = "Target Support Files/kratos_framework/ResourceBundle-kratos_framework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = kratos_framework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		32D6982C1A831C83759BB41199617F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E786460C137CA8A590EC041DD40D4291 /* Pods-kratos_framework_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-kratos_framework_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kratos_framework_Example/Pods-kratos_framework_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51C98841AB8021EA58ECE01B6F1C01B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C94837CB35C2B87D8C1A8E22EF24AB /* KratosDropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KratosDropDown/KratosDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KratosDropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KratosDropDown/KratosDropDown.modulemap";
+				PRODUCT_MODULE_NAME = KratosDropDown;
+				PRODUCT_NAME = KratosDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6B40B26E7B7A32550CFAF627554CAF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E4C2F3C94C102358BDBDBC159A3C51 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CE5A946ED77A33EF0CD0C4141B3EFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E4C2F3C94C102358BDBDBC159A3C51 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D46CC773C3EA37D1CB5556E552BE125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2891E446AF7934A6E415D641FB5528DA /* Pods-kratos_framework_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-kratos_framework_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kratos_framework_Tests/Pods-kratos_framework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DF572D646FA3307C282B44FC0814A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C94837CB35C2B87D8C1A8E22EF24AB /* KratosDropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KratosDropDown/KratosDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KratosDropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KratosDropDown/KratosDropDown.modulemap";
+				PRODUCT_MODULE_NAME = KratosDropDown;
+				PRODUCT_NAME = KratosDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A724366E0C5566DEE512B9EB576F1E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB81AE41190C12619238DA9192AF1AD5 /* kratos_framework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/kratos_framework/kratos_framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/kratos_framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/kratos_framework/kratos_framework.modulemap";
+				PRODUCT_MODULE_NAME = kratos_framework;
+				PRODUCT_NAME = kratos_framework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFEF31D3D51920D1FBD94F177A317142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7886999A1C7414215B5F008CBF6C86F0 /* Pods-kratos_framework_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-kratos_framework_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kratos_framework_Example/Pods-kratos_framework_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8CACECDC795F1C7D49870AEF6006121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB81AE41190C12619238DA9192AF1AD5 /* kratos_framework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/kratos_framework";
+				INFOPLIST_FILE = "Target Support Files/kratos_framework/ResourceBundle-kratos_framework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = kratos_framework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FD5DA262A13675697B1383A8E6098D02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B813C8333CA19DABECF3B00BDA4A0EA2 /* Pods-kratos_framework_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-kratos_framework_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-kratos_framework_Tests/Pods-kratos_framework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06749984F4071D61A367D264E1A800C9 /* Build configuration list for PBXNativeTarget "Pods-kratos_framework_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D6982C1A831C83759BB41199617F37 /* Debug */,
+				BFEF31D3D51920D1FBD94F177A317142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A2379BF2B87BFC7BA495F9BD85DD28 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE5A946ED77A33EF0CD0C4141B3EFE3 /* Debug */,
+				6B40B26E7B7A32550CFAF627554CAF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7810DC24B5139C3913509C6B60B280B1 /* Build configuration list for PBXNativeTarget "KratosDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF572D646FA3307C282B44FC0814A04 /* Debug */,
+				51C98841AB8021EA58ECE01B6F1C01B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D7C69A6C8EC7180248A32A96D38CCC4 /* Build configuration list for PBXNativeTarget "Pods-kratos_framework_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D46CC773C3EA37D1CB5556E552BE125 /* Debug */,
+				FD5DA262A13675697B1383A8E6098D02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A1D1D9F4E3D4D4627A524D14662627 /* Build configuration list for PBXNativeTarget "kratos_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A724366E0C5566DEE512B9EB576F1E92 /* Debug */,
+				1924A5C8EFBD8520CED4E808190C8942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EDC4B29108ADFC6946C8F3908EE6C4 /* Build configuration list for PBXNativeTarget "kratos_framework-kratos_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CACECDC795F1C7D49870AEF6006121 /* Debug */,
+				27F3FA1D0F7468D6C76F0F670216716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

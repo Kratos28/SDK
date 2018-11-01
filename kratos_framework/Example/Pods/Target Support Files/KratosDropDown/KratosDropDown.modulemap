@@ -1,0 +1,6 @@
+framework module KratosDropDown {
+  umbrella header "KratosDropDown-umbrella.h"
+
+  export *
+  module * { export * }
+}

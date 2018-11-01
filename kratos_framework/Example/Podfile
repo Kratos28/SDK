@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'kratos_framework_Example' do
+  pod 'kratos_framework', :path => '../'
+
+  target 'kratos_framework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,36 @@
+{
+  "name": "kratos_framework",
+  "version": "0.1.0",
+  "summary": "A short description of kratos_framework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.baidu.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kratos_framework": "461400226@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Kratos28/DropDown.git",
+    "tag": "2.3.12"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "kratos_framework/Classes/cls/**/*.{h,m,swift}",
+  "resources": "kratos_framework/Classes/cls/**/*.{xib}",
+  "resource_bundles": {
+    "kratos_framework": [
+      "kratos_framework/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "IQKeyboardManager": [
+
+    ],
+    "KratosDropDown": [
+
+    ]
+  }
+}

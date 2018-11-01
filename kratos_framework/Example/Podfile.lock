@@ -1,0 +1,27 @@
+PODS:
+  - IQKeyboardManager (6.2.0)
+  - kratos_framework (0.1.0):
+    - IQKeyboardManager
+    - KratosDropDown
+  - KratosDropDown (0.1.12)
+
+DEPENDENCIES:
+  - kratos_framework (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+    - KratosDropDown
+
+EXTERNAL SOURCES:
+  kratos_framework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  kratos_framework: 33d4b9b0d760f4a31b2479e4825e1153d1cdd127
+  KratosDropDown: 97a889992bd50aaf68299642c409b3ceae3e2094
+
+PODFILE CHECKSUM: 71c49e5df6902ea996a94699f834b17f3e2370aa
+
+COCOAPODS: 1.5.3
