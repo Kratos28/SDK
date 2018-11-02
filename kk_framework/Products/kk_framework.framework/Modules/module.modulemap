@@ -1,0 +1,11 @@
+framework module kk_framework {
+  umbrella header "kk_framework.h"
+
+  export *
+  module * { export * }
+}
+
+module kk_framework.Swift {
+    header "kk_framework-Swift.h"
+    requires objc
+}
